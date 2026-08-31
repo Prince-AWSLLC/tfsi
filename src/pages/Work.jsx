@@ -14,7 +14,7 @@ export default function Work() {
       />
 
       <section className="section">
-        <div className="wrap">
+        <div className="wrap reveal-stagger">
           <article className="story-block">
             <h2>Meeting critical needs</h2>
             <p>

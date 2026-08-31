@@ -101,9 +101,22 @@ p:last-child {
 }
 
 .site-header {
+  position: relative;
   background: var(--navy);
   color: var(--white);
-  border-bottom: 3px solid var(--red);
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: rule-draw 640ms 160ms ease forwards;
 }
 
 .header-inner {
@@ -153,6 +166,7 @@ p:last-child {
   text-transform: uppercase;
   padding: 6px 0;
   border-bottom: 2px solid transparent;
+  transition: color 160ms ease, border-color 160ms ease;
 }
 
 .nav a:not(.btn):hover,
@@ -178,6 +192,7 @@ button.btn {
   padding: 10px 16px;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
 }
 
 .btn:hover {
@@ -224,6 +239,7 @@ button.btn {
 
 .mast-photo {
   background: var(--navy-deep);
+  overflow: hidden;
 }
 
 .mast-img {
@@ -237,9 +253,22 @@ button.btn {
 
 .mast-bar,
 .mast-plain {
+  position: relative;
   background: var(--navy-deep);
   color: #efe8dc;
-  border-bottom: 3px solid var(--red);
+}
+
+.mast-bar::after,
+.mast-plain::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
 }
 
 .mast-plain {
@@ -295,9 +324,25 @@ button.btn {
 }
 
 .band-navy {
+  position: relative;
   background: var(--navy-deep);
   color: #efe8dc;
-  border-top: 3px solid var(--red);
+}
+
+.band-navy::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.band-navy.is-in::before {
+  animation: rule-draw 620ms ease forwards;
 }
 
 .band-navy h2,
@@ -320,15 +365,83 @@ button.btn {
   align-items: start;
 }
 
+.work-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  grid-template-areas:
+    "intro photo"
+    "list photo"
+    "action photo";
+  column-gap: 40px;
+  align-items: start;
+}
+
+.work-intro {
+  grid-area: intro;
+}
+
+.work-intro h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 12px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.work-board.is-in .work-intro h2::after {
+  animation: rule-draw 480ms 80ms ease forwards;
+}
+
+.work-board-photo {
+  grid-area: photo;
+  align-self: stretch;
+  display: flex;
+}
+
+.work-board-list {
+  grid-area: list;
+  margin-top: 12px;
+}
+
+.work-board-action {
+  grid-area: action;
+}
+
 .photo-frame {
-  border-top: 3px solid var(--red);
+  position: relative;
   background: var(--navy);
+  overflow: hidden;
+}
+
+.photo-frame::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 3px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
 }
 
 .photo-frame img {
   width: 100%;
   object-fit: cover;
   max-height: 420px;
+}
+
+.work-board-photo img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: center 40%;
 }
 
 .jse-mark {
@@ -339,16 +452,32 @@ button.btn {
 }
 
 .pull {
+  position: relative;
   font-family: "Barlow Condensed", sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: clamp(28px, 4vw, 40px);
   line-height: 1.15;
   color: var(--navy);
-  border-left: 4px solid var(--red);
   padding: 4px 0 4px 20px;
   margin: 24px 0 0;
   max-width: 22ch;
+}
+
+.pull::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.reveal.is-in .pull::before {
+  animation: rule-draw-y 520ms 120ms ease forwards;
 }
 
 .work-list {
@@ -360,8 +489,14 @@ button.btn {
   display: grid;
   grid-template-columns: 160px 1fr;
   gap: 24px;
-  padding: 20px 0;
+  padding: 20px 12px 20px 0;
   border-top: 1px solid var(--line);
+  transition: background-color 160ms ease, box-shadow 180ms ease;
+}
+
+.work-item:hover {
+  background: var(--paper-deep);
+  box-shadow: inset 3px 0 0 var(--red);
 }
 
 .work-item:last-child {
@@ -396,8 +531,24 @@ button.btn {
 }
 
 .story-block {
+  position: relative;
   padding: 4px 0 4px 20px;
-  border-left: 3px solid var(--red);
+}
+
+.story-block::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.reveal-stagger.is-in .story-block::before {
+  animation: rule-draw-y 480ms ease forwards;
 }
 
 .story-block + .story-block {
@@ -603,9 +754,25 @@ label {
 }
 
 .event {
+  position: relative;
   padding: 4px 0 24px 20px;
-  border-left: 3px solid var(--red);
   margin-top: 28px;
+}
+
+.event::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.reveal-stagger.is-in .event::before {
+  animation: rule-draw-y 480ms ease forwards;
 }
 
 .event-date {
@@ -617,11 +784,24 @@ label {
 }
 
 .site-footer {
+  position: relative;
   background: var(--navy);
   color: #e8e8e8;
   padding: 36px 0 32px;
   margin-top: 0;
-  border-top: 3px solid var(--red);
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: rule-draw 700ms 240ms ease forwards;
 }
 
 .footer-grid {
@@ -725,7 +905,84 @@ label {
 }
 
 .page-enter .mast-img {
-  animation: photo-in 500ms ease;
+  animation: photo-in 700ms ease, photo-live 20s 700ms ease-out forwards;
+}
+
+.page-enter .mast-bar,
+.page-enter .mast-plain {
+  animation: mast-in 480ms ease;
+}
+
+.page-enter .mast-bar::after,
+.page-enter .mast-plain::after {
+  animation: rule-draw 680ms 160ms ease forwards;
+}
+
+.page-enter .mast .kicker {
+  animation: kicker-in 500ms 80ms ease both;
+}
+
+.page-enter .photo-frame::before,
+.reveal.is-in .photo-frame::before {
+  animation: rule-draw 600ms 80ms ease forwards;
+}
+
+.work-board.is-in .work-board-photo img {
+  animation: photo-live 22s ease-out forwards;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.reveal.is-in {
+  animation: reveal-in 420ms ease forwards;
+}
+
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.reveal-stagger.is-in > * {
+  animation: reveal-in 400ms ease forwards;
+}
+
+.reveal-stagger.is-in > *:nth-child(1) {
+  animation-delay: 0ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(2) {
+  animation-delay: 50ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(4) {
+  animation-delay: 150ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(5) {
+  animation-delay: 200ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(6) {
+  animation-delay: 250ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(7) {
+  animation-delay: 300ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(8) {
+  animation-delay: 350ms;
+}
+
+.reveal-stagger.is-in > *:nth-child(9) {
+  animation-delay: 400ms;
 }
 
 @keyframes page-in {
@@ -740,6 +997,66 @@ label {
 }
 
 @keyframes photo-in {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes mast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes photo-live {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+
+@keyframes rule-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes rule-draw-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes kicker-in {
   from {
     opacity: 0;
   }
@@ -770,8 +1087,48 @@ label {
 
   .page-enter,
   .page-enter .mast-img,
-  .route-bar.is-on {
+  .page-enter .mast-bar,
+  .page-enter .mast-plain,
+  .page-enter .mast-bar::after,
+  .page-enter .mast-plain::after,
+  .page-enter .mast .kicker,
+  .page-enter .photo-frame::before,
+  .route-bar.is-on,
+  .reveal,
+  .reveal.is-in,
+  .reveal-stagger > *,
+  .reveal-stagger.is-in > *,
+  .site-header::after,
+  .site-footer::before,
+  .band-navy::before,
+  .band-navy.is-in::before,
+  .photo-frame::before,
+  .reveal.is-in .photo-frame::before,
+  .work-intro h2::after,
+  .work-board.is-in .work-intro h2::after,
+  .work-board.is-in .work-board-photo img,
+  .pull::before,
+  .reveal.is-in .pull::before,
+  .story-block::before,
+  .reveal-stagger.is-in .story-block::before,
+  .event::before,
+  .reveal-stagger.is-in .event::before {
     animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .site-header::after,
+  .site-footer::before,
+  .band-navy::before,
+  .photo-frame::before,
+  .mast-bar::after,
+  .mast-plain::after,
+  .work-intro h2::after,
+  .pull::before,
+  .story-block::before,
+  .event::before {
+    transform: none;
   }
 }
 
@@ -790,6 +1147,25 @@ label {
 
   .mast-photo h1 {
     max-width: none;
+  }
+
+  .work-board {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "intro"
+      "photo"
+      "list"
+      "action";
+    row-gap: 24px;
+  }
+
+  .work-board-list {
+    margin-top: 0;
+  }
+
+  .work-board-photo img {
+    height: 240px;
+    max-height: 240px;
   }
 
   .menu-toggle {

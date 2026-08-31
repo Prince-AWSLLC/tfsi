@@ -43,6 +43,44 @@ function RouteBar() {
   return <div className={on ? "route-bar is-on" : "route-bar"} />;
 }
 
+function RevealOnScroll() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const nodes = Array.from(document.querySelectorAll(".reveal, .reveal-stagger"));
+    if (nodes.length === 0) {
+      return undefined;
+    }
+
+    const show = () => {
+      nodes.forEach((el) => el.classList.add("is-in"));
+    };
+
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || !("IntersectionObserver" in window)) {
+      show();
+      return undefined;
+    }
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -10% 0px" }
+    );
+
+    nodes.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, [pathname]);
+
+  return null;
+}
+
 export default function Layout() {
   const { pathname } = useLocation();
   const [booted, setBooted] = useState(false);
@@ -53,6 +91,7 @@ export default function Layout() {
       <BootScreen onDone={finishBoot} />
       <RouteEffects />
       {booted ? <RouteBar /> : null}
+      {booted ? <RevealOnScroll /> : null}
       <a className="skip" href="#main">
         Skip to content
       </a>

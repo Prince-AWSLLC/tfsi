@@ -11,7 +11,7 @@ export default function About() {
         lead="For more than a decade the house in Granbury has hosted the pioneers of Israel — most of them from Judea and Samaria. An interested group gathers. God’s covenant people tell the story of living out biblical prophecy in the land."
       />
 
-      <section className="section">
+      <section className="section reveal">
         <div className="wrap split">
           <div>
             <p>
@@ -45,7 +45,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section section-rule">
+      <section className="section section-rule reveal">
         <div className="wrap">
           <h2>How we work in Texas</h2>
           <p className="lead">

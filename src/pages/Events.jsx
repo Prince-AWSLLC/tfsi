@@ -12,7 +12,7 @@ export default function Events() {
       />
 
       <section className="section">
-        <div className="wrap">
+        <div className="wrap reveal-stagger">
           <article className="event">
             <div className="event-date">February 15 · listed event</div>
             <h2>Yair Levi concert</h2>

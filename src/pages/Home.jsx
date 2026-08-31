@@ -20,8 +20,8 @@ export default function Home() {
       </PageMast>
 
       <section className="section">
-        <div className="wrap split">
-          <div>
+        <div className="wrap work-board reveal">
+          <div className="work-intro">
             <h2>The work</h2>
             <p>
               TFSI’s greatest role has been as a connector. Guests from the
@@ -31,18 +31,13 @@ export default function Home() {
               of visitors.
             </p>
           </div>
-          <div className="photo-frame">
+          <div className="photo-frame work-board-photo">
             <img
               src={IMAGES.land}
               alt="Hills of Judea and Samaria"
             />
           </div>
-        </div>
-      </section>
-
-      <section className="section section-rule">
-        <div className="wrap">
-          <div className="work-list">
+          <div className="work-list work-board-list reveal-stagger">
             {WORK_AREAS.slice(0, 6).map((item, index) => (
               <article className="work-item work-item-numbered" key={item.title}>
                 <div className="work-num" aria-hidden="true">
@@ -55,7 +50,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <p className="action-row">
+          <p className="action-row work-board-action">
             <Link className="btn btn-navy" to="/work">
               Read the work
             </Link>
@@ -63,7 +58,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section band-navy">
+      <section className="section band-navy reveal">
         <div className="wrap split">
           <div>
             <img

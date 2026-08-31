@@ -105,7 +105,7 @@ export default function Experience() {
         imageAlt="Hebron and the surrounding hills"
       />
 
-      <section className="section">
+      <section className="section reveal">
         <div className="wrap split">
           <div>
             <h2>How it works</h2>
@@ -148,7 +148,7 @@ export default function Experience() {
       <section className="section section-rule">
         <div className="wrap">
           <h2>What kind of visit</h2>
-          <div className="work-list">
+          <div className="work-list reveal-stagger">
             <article className="work-item">
               <div className="work-meta">Paths</div>
               <div>
@@ -189,16 +189,18 @@ export default function Experience() {
             Hosted by Franny Waisman. Hear the people and places before you
             go. Twenty-one episodes in season one.
           </p>
-          {EPISODES.map((episode) => (
-            <article className="podcast" key={episode.n}>
-              <img src={episode.image} alt="" />
-              <div>
-                <div className="work-meta">Episode {episode.n}</div>
-                <h3>{episode.title}</h3>
-                <p>{episode.blurb}</p>
-              </div>
-            </article>
-          ))}
+          <div className="reveal-stagger">
+            {EPISODES.map((episode) => (
+              <article className="podcast" key={episode.n}>
+                <img src={episode.image} alt="" />
+                <div>
+                  <div className="work-meta">Episode {episode.n}</div>
+                  <h3>{episode.title}</h3>
+                  <p>{episode.blurb}</p>
+                </div>
+              </article>
+            ))}
+          </div>
           <p className="action-row">
             <a
               className="btn btn-navy"
