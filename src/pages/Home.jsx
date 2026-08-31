@@ -1,33 +1,25 @@
 import { Link } from "react-router-dom";
+import PageMast from "../components/PageMast";
 import { IMAGES, WORK_AREAS } from "../data/site";
 
 export default function Home() {
   return (
     <>
-      <img
-        className="hero-photo"
-        src={IMAGES.lodge}
-        alt="The TFSI lodge in Granbury, with Texas and Israel flags over the entrance"
-      />
-      <section className="page-hero">
-        <div className="wrap">
-          <p className="kicker">Granbury, Texas · 501(c)(3)</p>
-          <h1>Why can’t we just be friends?</h1>
-          <p className="lead">
-            Texans for a Safe Israel supports the Jewish people in their
-            God-given homeland — especially Jerusalem, Judea, and Samaria —
-            and educates in Texas by building friendships without a hidden
-            agenda.
-          </p>
-          <p>
-            <Link className="btn" to="/donate">
-              Donate
-            </Link>
-          </p>
-        </div>
-      </section>
+      <PageMast
+        kicker="Granbury, Texas · 501(c)(3)"
+        title="Why can’t we just be friends?"
+        lead="Texans for a Safe Israel supports the Jewish people in their God-given homeland — especially Jerusalem, Judea, and Samaria — and educates in Texas by building friendships without a hidden agenda."
+        image={IMAGES.lodge}
+        imageAlt="The TFSI lodge in Granbury, with Texas and Israel flags over the entrance"
+      >
+        <p>
+          <Link className="btn" to="/donate">
+            Donate
+          </Link>
+        </p>
+      </PageMast>
 
-      <section className="section section-rule">
+      <section className="section">
         <div className="wrap split">
           <div>
             <h2>The work</h2>
@@ -48,12 +40,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-rule">
         <div className="wrap">
           <div className="work-list">
-            {WORK_AREAS.slice(0, 6).map((item) => (
-              <article className="work-item" key={item.title}>
-                <div className="work-meta">Focus</div>
+            {WORK_AREAS.slice(0, 6).map((item, index) => (
+              <article className="work-item work-item-numbered" key={item.title}>
+                <div className="work-num" aria-hidden="true">
+                  {String(index + 1).padStart(2, "0")}
+                </div>
                 <div>
                   <h3>{item.title}</h3>
                   <p>{item.summary}</p>
@@ -69,9 +63,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-rule">
+      <section className="section band-navy">
         <div className="wrap split">
-          <div className="photo-frame">
+          <div>
             <img
               className="jse-mark"
               src={IMAGES.jseLogo}
@@ -88,7 +82,7 @@ export default function Home() {
               and hosts.
             </p>
             <p>
-              <Link className="btn btn-navy" to="/judea-samaria">
+              <Link className="btn btn-ghost" to="/judea-samaria">
                 Plan a visit
               </Link>
             </p>

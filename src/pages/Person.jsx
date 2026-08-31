@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import PageMast from "../components/PageMast";
 import { PEOPLE } from "../data/people";
 
 export default function Person() {
@@ -7,24 +8,24 @@ export default function Person() {
 
   if (!person) {
     return (
-      <section className="page-hero">
-        <div className="wrap">
-          <h1>Not in this list</h1>
-          <p>
-            <Link to="/people">Back to people we have hosted</Link>
-          </p>
-        </div>
-      </section>
+      <PageMast title="Not in this list">
+        <p>
+          <Link className="btn btn-ghost" to="/people">
+            Back to people we have hosted
+          </Link>
+        </p>
+      </PageMast>
     );
   }
 
   return (
-    <section className="page-hero">
-      <div className="wrap">
-        <p className="kicker">{person.affiliation}</p>
-        <h1>{person.name}</h1>
+    <>
+      <PageMast kicker={person.affiliation} title={person.name}>
         <p className="tag">{person.tags.join(" · ")}</p>
-        <div className="section">
+      </PageMast>
+
+      <section className="section">
+        <div className="wrap">
           {(person.story || person.summary)
             .split("\n\n")
             .map((paragraph) => (
@@ -37,13 +38,13 @@ export default function Person() {
               </a>
             </p>
           ) : null}
-          <p>
+          <p className="action-row">
             <Link to="/people">All guests</Link>
             {" · "}
             <Link to="/contact">Ask to be connected</Link>
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

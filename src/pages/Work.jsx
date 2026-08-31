@@ -1,25 +1,19 @@
 import { Link } from "react-router-dom";
+import PageMast from "../components/PageMast";
 import { IMAGES } from "../data/site";
 
 export default function Work() {
   return (
     <>
-      <img
-        className="hero-photo"
-        src={IMAGES.hills}
-        alt="Hills in Judea and Samaria"
+      <PageMast
+        kicker="Our work"
+        title="What the money actually does"
+        lead="These are the projects on the current site — named people, named places, named items. No invented totals."
+        image={IMAGES.hills}
+        imageAlt="Hills in Judea and Samaria"
       />
-      <section className="page-hero">
-      <div className="wrap">
-        <p className="kicker">Our work</p>
-        <h1>What the money actually does</h1>
-        <p className="lead">
-          These are the projects on the current site — named people, named
-          places, named items. No invented totals.
-        </p>
-      </div>
 
-      <div className="section">
+      <section className="section">
         <div className="wrap">
           <article className="story-block">
             <h2>Meeting critical needs</h2>
@@ -126,8 +120,7 @@ export default function Work() {
             </Link>
           </p>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }

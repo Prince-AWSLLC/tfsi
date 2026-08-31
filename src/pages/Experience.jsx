@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import PageMast from "../components/PageMast";
 import { CONTACT, IMAGES } from "../data/site";
 
 const INTERESTS = [
@@ -96,24 +97,15 @@ export default function Experience() {
 
   return (
     <>
-      <img
-        className="hero-photo"
-        src={IMAGES.hebron}
-        alt="Hebron and the surrounding hills"
+      <PageMast
+        kicker="Judea and Samaria Experience"
+        title="Real places. Real people."
+        lead="Personalized travel guidance so a visit to the Heartland is a conversation, not a packaged tour. Supported by Texans for a Safe Israel."
+        image={IMAGES.hebron}
+        imageAlt="Hebron and the surrounding hills"
       />
-      <section className="page-hero">
-        <div className="wrap">
-          <p className="kicker">Judea and Samaria Experience</p>
-          <h1>Real places. Real people.</h1>
-          <p className="lead">
-            Personalized travel guidance so a visit to the Heartland is a
-            conversation, not a packaged tour. Supported by Texans for a
-            Safe Israel.
-          </p>
-        </div>
-      </section>
 
-      <section className="section section-rule">
+      <section className="section">
         <div className="wrap split">
           <div>
             <h2>How it works</h2>
@@ -153,7 +145,7 @@ export default function Experience() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-rule">
         <div className="wrap">
           <h2>What kind of visit</h2>
           <div className="work-list">
@@ -220,7 +212,7 @@ export default function Experience() {
         </div>
       </section>
 
-      <section className="section" id="plan">
+      <section className="section section-rule" id="plan">
         <div className="wrap split">
           <div>
             <h2>Plan your visit</h2>

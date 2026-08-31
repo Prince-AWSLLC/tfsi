@@ -1,21 +1,17 @@
 import { Link } from "react-router-dom";
+import PageMast from "../components/PageMast";
 import { IMAGES } from "../data/site";
 
 export default function About() {
   return (
-    <section className="page-hero">
-      <div className="wrap">
-        <p className="kicker">About</p>
-        <h1>What sets us apart</h1>
-        <p className="lead">
-          For more than a decade the house in Granbury has hosted the
-          pioneers of Israel — most of them from Judea and Samaria. An
-          interested group gathers. God’s covenant people tell the story of
-          living out biblical prophecy in the land.
-        </p>
-      </div>
+    <>
+      <PageMast
+        kicker="About"
+        title="What sets us apart"
+        lead="For more than a decade the house in Granbury has hosted the pioneers of Israel — most of them from Judea and Samaria. An interested group gathers. God’s covenant people tell the story of living out biblical prophecy in the land."
+      />
 
-      <div className="section">
+      <section className="section">
         <div className="wrap split">
           <div>
             <p>
@@ -47,9 +43,9 @@ export default function About() {
             />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="section section-rule">
+      <section className="section section-rule">
         <div className="wrap">
           <h2>How we work in Texas</h2>
           <p className="lead">
@@ -59,11 +55,13 @@ export default function About() {
           </p>
           <p>
             We believe Israel, the Jewish people, and the nations each have
-            a part to play. The line we keep repeating is simple: to Jews
-            and to Christians, why can’t we just be friends?
+            a part to play.
+          </p>
+          <p className="pull">
+            To Jews and to Christians, why can’t we just be friends?
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
