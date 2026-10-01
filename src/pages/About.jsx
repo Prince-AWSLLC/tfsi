@@ -1,65 +1,111 @@
-import { Link } from "react-router-dom";
-import PageMast from "../components/PageMast";
-import { IMAGES } from "../data/site";
+import { CtaLink, Img, Paragraphs, T } from "../components/Bind";
+import Faq from "../components/Faq";
+import Hero from "../components/Hero";
+import PeopleDirectory from "../components/PeopleDirectory";
+import SectionHead from "../components/SectionHead";
+import { useSite } from "../data/siteData";
 
 export default function About() {
+  const { get } = useSite();
+  const leaders = get("about.leadership.people") ?? [];
+  const steps = get("about.jse.steps") ?? [];
+  const interests = get("about.jse.interests") ?? [];
+
   return (
     <>
-      <PageMast
-        kicker="About"
-        title="What sets us apart"
-        lead="For more than a decade the house in Granbury has hosted the pioneers of Israel — most of them from Judea and Samaria. An interested group gathers. God’s covenant people tell the story of living out biblical prophecy in the land."
-      />
+      <Hero path="about.hero" compact />
 
-      <section className="section reveal">
-        <div className="wrap split">
-          <div>
-            <p>
-              Those stories come with sacrifice, opposition, and immediate
-              needs. That is the work: stand with the Jewish people, serve
-              them, and take part in what is happening in the land.
-            </p>
-            <p>
-              President Ann Stacy has hosted Orthodox Jewish guests since
-              October 2011. Texans for a Safe Israel was formed as a 501(c)(3)
-              in 2018–2019 so those friendships could fund security projects
-              and Holocaust education — not just conversation.
-            </p>
-            <p>
-              Mike Isley, founder of Texans for Israel, serves as vice
-              president. The lodge flies Texas and Israeli flags over the
-              same door for a reason.
-            </p>
-            <p>
-              <Link className="btn btn-navy" to="/people">
-                People we have hosted
-              </Link>
-            </p>
+      <section className="section">
+        <div className="wrap split split-media-right">
+          <div data-reveal>
+            <SectionHead path="about.story" lead={false} />
+            <div className="prose">
+              <Paragraphs path="about.story.body" />
+            </div>
           </div>
-          <div className="photo-frame">
-            <img
-              src={IMAGES.lodge}
-              alt="TFSI lodge entrance with Texas and Israel flags"
-            />
+          <figure className="frame frame-tall" data-reveal>
+            <Img path="about.story.image" altPath="about.story.imageAlt" loading="lazy" decoding="async" />
+          </figure>
+        </div>
+      </section>
+
+      <section className="section section-tint">
+        <div className="wrap">
+          <SectionHead path="about.leadership" lead={false} />
+          <div className="leader-grid" data-json="about.leadership.people">
+            {leaders.map((person, index) => (
+              <article key={person.name} className="leader" data-reveal style={{ "--i": index }}>
+                <span className="leader-role">{person.role}</span>
+                <h3>{person.name}</h3>
+                <p>{person.note}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="section section-rule reveal">
+      <section className="section">
+        <div className="wrap narrow" data-reveal>
+          <SectionHead path="about.howWeWork" lead={false} />
+          <div className="prose">
+            <Paragraphs path="about.howWeWork.body" />
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-rule" id="people">
         <div className="wrap">
-          <h2>How we work in Texas</h2>
-          <p className="lead">
-            Education here is relationship. Most of the Christians who come
-            through the house have never been to Israel and have never known
-            a Jewish person. The guests change that.
-          </p>
-          <p>
-            We believe Israel, the Jewish people, and the nations each have
-            a part to play.
-          </p>
-          <p className="pull">
-            To Jews and to Christians, why can’t we just be friends?
-          </p>
+          <SectionHead path="about.people" />
+          <PeopleDirectory />
+        </div>
+      </section>
+
+      <section className="section section-dark" id="judea-samaria">
+        <div className="wrap split split-media-left">
+          <figure className="frame frame-tall" data-reveal>
+            <Img path="about.jse.image" altPath="about.jse.imageAlt" loading="lazy" decoding="async" />
+          </figure>
+          <div data-reveal>
+            <Img path="about.jse.logo" className="jse-mark" alt="" loading="lazy" decoding="async" />
+            <SectionHead path="about.jse" light />
+            <ol className="steps" data-json="about.jse.steps">
+              {steps.map((step, index) => (
+                <li key={step.title} className="step">
+                  <span className="step-index">{index + 1}</span>
+                  <div>
+                    <h3>{step.title}</h3>
+                    <p>{step.body}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+            <div className="section-actions">
+              <CtaLink path="about.jse.cta" className="btn btn-accent" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-tint">
+        <div className="wrap two-col-wide">
+          <div data-reveal>
+            <h2 className="h3">What kind of visit</h2>
+            <ul className="interest-list" data-json="about.jse.interests">
+              {interests.map((item) => (
+                <li key={item.title}>
+                  <h3>{item.title}</h3>
+                  <p>{item.body}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div data-reveal>
+            <h2 className="h3">Questions</h2>
+            <Faq path="about.jse.faq" />
+            <p className="form-note">
+              <T path="donate.faq.items.3.a" />
+            </p>
+          </div>
         </div>
       </section>
     </>

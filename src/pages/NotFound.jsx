@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
-import PageMast from "../components/PageMast";
+import { CtaLink, T } from "../components/Bind";
 
 export default function NotFound() {
   return (
-    <PageMast title="Page not found" lead="That address is not on this site.">
-      <p>
-        <Link className="btn btn-ghost" to="/">
-          Go to the home page
-        </Link>
-      </p>
-    </PageMast>
+    <section className="section not-found">
+      <div className="wrap narrow">
+        <T path="notFound.headline" as="h1" />
+        <T path="notFound.body" as="p" className="lead" />
+        <CtaLink path="notFound.cta" className="btn btn-primary" />
+      </div>
+    </section>
   );
 }

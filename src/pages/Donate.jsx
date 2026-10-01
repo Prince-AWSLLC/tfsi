@@ -1,51 +1,53 @@
-import PageMast from "../components/PageMast";
-import { CONTACT, DONATE_AMOUNTS } from "../data/site";
+import { T } from "../components/Bind";
+import DonationTiers from "../components/DonationTiers";
+import Faq from "../components/Faq";
+import Hero from "../components/Hero";
+import SectionHead from "../components/SectionHead";
+import { useSite } from "../data/siteData";
 
 export default function Donate() {
+  const { get } = useSite();
+  const stories = get("donate.stories.items") ?? [];
+
   return (
     <>
-      <PageMast
-        kicker="Give"
-        title="Donate"
-        lead={`Gifts go through Texans for a Safe Israel, a U.S. 501(c)(3). They fund security, survivors, soldiers, hosting, and the Judea and Samaria Experience. EIN ${CONTACT.ein}.`}
-      />
+      <Hero path="donate.hero" compact>
+        <a className="btn btn-accent btn-lg" href="#give">
+          Choose an amount
+        </a>
+      </Hero>
 
-      <section className="section">
-        <div className="wrap">
-          <h2>Suggested amounts</h2>
-          <p>
-            These are the levels on the current site. Each one opens the
-            existing PayPal donation page.
-          </p>
-          <div className="amounts">
-            {DONATE_AMOUNTS.map((amount) => (
-              <a
-                key={amount}
-                className="btn amount"
-                href={`${CONTACT.paypal}&amount=${amount}`}
-              >
-                ${amount}
-              </a>
-            ))}
-          </div>
-          <p>
-            <a className="btn" href={CONTACT.paypal}>
-              Give another amount
-            </a>
-          </p>
+      <section className="section" id="give">
+        <div className="wrap narrow-wide" data-reveal>
+          <header className="section-head">
+            <T path="donate.tiers.title" as="h2" />
+            <T path="donate.tiers.lead" as="p" className="lead" />
+          </header>
+          <DonationTiers />
         </div>
       </section>
 
-      <section className="section section-rule">
+      <section className="section section-tint" id="where-gifts-go">
         <div className="wrap">
-          <h2>Monthly or one-time</h2>
-          <p>
-            Either one keeps the house able to answer the next call from
-            Arugot, Itamar, Shiloh, or a survivor in Texas. If you want a
-            gift designated to a specific need, say so in the PayPal note or
-            write{" "}
-            <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>.
-          </p>
+          <SectionHead path="donate.stories" />
+          <div className="story-grid" data-json="donate.stories.items">
+            {stories.map((story, index) => (
+              <article key={story.title} className="story" data-reveal style={{ "--i": index % 3 }}>
+                <span className="story-index">{String(index + 1).padStart(2, "0")}</span>
+                <h3>{story.title}</h3>
+                {story.body.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap narrow" data-reveal>
+          <T path="donate.faq.title" as="h2" />
+          <Faq path="donate.faq.items" />
         </div>
       </section>
     </>

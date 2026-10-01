@@ -1,0 +1,803 @@
+{
+  "org": {
+    "name": "Texans for a Safe Israel",
+    "shortName": "TFSI",
+    "tagline": "Why can’t we just be friends?",
+    "status": "501(c)(3) nonprofit",
+    "ein": "83-3309141",
+    "email": "info@texansforasafeisrael.com",
+    "phone": "(469) 251-9292",
+    "phoneHref": "tel:+14692519292",
+    "poBox": "P.O. Box 6671",
+    "city": "Granbury, TX 76049-9998",
+    "paypal": "https://www.paypal.com/donate/?hosted_button_id=5BDT84LVK8A8U",
+    "logo": "/images/logo-mark.png",
+    "legal": "Contributions are tax-deductible in the United States to the extent allowed by law."
+  },
+  "nav": [
+    { "label": "Home", "to": "/" },
+    { "label": "About", "to": "/about" },
+    { "label": "Media", "to": "/media" },
+    { "label": "Contact", "to": "/contact" }
+  ],
+  "home": {
+    "hero": {
+      "kicker": "Granbury, Texas",
+      "headline": "Why can’t we just be friends?",
+      "lead": "Texans for a Safe Israel stands with the Jewish people in their God-given homeland — especially Jerusalem, Judea, and Samaria — and educates in Texas by building friendships without a hidden agenda.",
+      "image": "/images/lodge-exterior.jpg",
+      "imageAlt": "The TFSI lodge in Granbury with Texas and Israeli flags over the entrance",
+      "primary": { "label": "Donate", "to": "/donate" },
+      "secondary": { "label": "Our story", "to": "/about" }
+    },
+    "facts": [
+      { "label": "Hosting Israeli guests since", "value": "October 2011" },
+      { "label": "Formed as a 501(c)(3)", "value": "2018–2019" },
+      { "label": "Based in", "value": "Granbury, Texas" },
+      { "label": "Focus", "value": "Jerusalem, Judea, and Samaria" }
+    ],
+    "mission": {
+      "kicker": "Our mission",
+      "title": "A connector for the Jewish people",
+      "body": [
+        "TFSI’s greatest role has been as a connector. Guests from the Biblical Heartland sit in a Texas house and tell their own story. Donors then fund the needs those friendships make visible: security, survivors, soldiers, and the next generation of visitors.",
+        "In Texas we educate through respectful relationships where real friendships can thrive. Most of the Christians who come through the house have never been to Israel and have never known a Jewish person. The guests change that."
+      ],
+      "image": "/images/lodge-flag.jpg",
+      "imageAlt": "An Israeli flag hanging inside the log lodge in Granbury"
+    },
+    "work": {
+      "kicker": "Where we serve",
+      "title": "The work",
+      "intro": "Named people, named places, named items. These are the areas TFSI funds and the friendships behind them.",
+      "cta": { "label": "See where gifts go", "to": "/donate#where-gifts-go" },
+      "items": [
+        {
+          "title": "Critical needs",
+          "summary": "When a community or family asks for help, TFSI moves quickly — drones, appliances, medical bags, or the specific item that keeps people safe."
+        },
+        {
+          "title": "Holocaust survivors",
+          "summary": "Practical care without an agenda: appliances, home repairs, grocery cards at the holidays, and the things that restore dignity late in life."
+        },
+        {
+          "title": "Security and tactical supplies",
+          "summary": "After October 7, funding for drones, vests, cameras, helmets, boots, jackets, and medical kits for communities in Judea and Samaria."
+        },
+        {
+          "title": "Soldiers and families",
+          "summary": "Food and drink for battalions in the field, and support for widows, orphans, and traumatized children through trusted Israeli partners."
+        },
+        {
+          "title": "Hosting and education",
+          "summary": "Israeli guests tell their own story in Texas living rooms. Friendships, not talking points."
+        },
+        {
+          "title": "Influencer trips",
+          "summary": "First-hand travel to the Heartland so younger Americans meet the people and the land, not a headline."
+        },
+        {
+          "title": "The Biblical Highway",
+          "summary": "A long-term effort to see Route 60 known worldwide as Israel’s national Biblical Highway — rest stops, overlooks, and real tourism in the Holy Cities."
+        },
+        {
+          "title": "Texas–Israel Embassy",
+          "summary": "A working embassy concept: Texans in Israel and Israelis in Texas, with guides, business connections, and a place people can actually go."
+        }
+      ]
+    },
+    "jse": {
+      "kicker": "A TFSI initiative",
+      "title": "The Judea and Samaria Experience",
+      "body": "Personalized travel guidance for people who want to walk the land and meet the people who live there. Not a tour company. One conversation, then a match with trusted guides and hosts.",
+      "image": "/images/hebron.jpg",
+      "imageAlt": "Hebron and the surrounding hills",
+      "logo": "/images/jse-logo.png",
+      "cta": { "label": "Plan a visit", "to": "/about#judea-samaria" }
+    },
+    "quote": {
+      "text": "To Jews and to Christians we simply say: why can’t we just be friends?",
+      "attribution": "The line TFSI keeps repeating"
+    },
+    "closing": {
+      "title": "Stand with the people of the Heartland",
+      "body": "Every gift goes through Texans for a Safe Israel, a U.S. 501(c)(3). It keeps the house able to answer the next call from Arugot, Itamar, Shiloh, or a survivor in Texas.",
+      "primary": { "label": "Donate", "to": "/donate" },
+      "secondary": { "label": "Write the house", "to": "/contact" }
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "About",
+      "headline": "What sets us apart",
+      "lead": "For more than a decade the house in Granbury has hosted the pioneers of Israel — most of them from Judea and Samaria. An interested group gathers. God’s covenant people tell the story of living out biblical prophecy in the land.",
+      "image": "/images/lodge-flag.jpg",
+      "imageAlt": "An Israeli flag hanging inside the TFSI lodge"
+    },
+    "story": {
+      "kicker": "Our story",
+      "title": "Friendships that fund the work",
+      "body": [
+        "Those stories come with sacrifice, opposition, and immediate needs. That is the work: stand with the Jewish people, serve them, and take part in what is happening in the land.",
+        "President Ann Stacy has hosted Orthodox Jewish guests since October 2011. Texans for a Safe Israel was formed as a 501(c)(3) in 2018–2019 so those friendships could fund security projects and Holocaust education — not just conversation.",
+        "Mike Isley, founder of Texans for Israel, serves as vice president. The lodge flies Texas and Israeli flags over the same door for a reason."
+      ],
+      "image": "/images/vineyard-friends.jpg",
+      "imageAlt": "Friends standing in a vineyard in Samaria"
+    },
+    "leadership": {
+      "kicker": "Leadership",
+      "title": "Who answers the phone",
+      "people": [
+        {
+          "name": "Ann Stacy",
+          "role": "President",
+          "note": "Has hosted Orthodox Jewish guests in the Granbury home since October 2011. Americans for a Safe Israel changed her life in 2011 and continues to do so."
+        },
+        {
+          "name": "Mike Isley",
+          "role": "Vice President",
+          "note": "Founder and president of Texans for Israel. Brought filmmaker David Kiern to the Stacy home."
+        }
+      ]
+    },
+    "howWeWork": {
+      "kicker": "How we work in Texas",
+      "title": "Education here is relationship",
+      "body": [
+        "Most of the Christians who come through the house have never been to Israel and have never known a Jewish person. The guests change that.",
+        "We believe Israel, the Jewish people, and the nations each have a part to play."
+      ]
+    },
+    "people": {
+      "kicker": "Guests",
+      "title": "People we have hosted",
+      "lead": "Israeli pioneers, Texas friends, and the people who introduced them. Search the list or open a name for the longer account.",
+      "tags": ["All", "Israel", "Heartland", "Texas / U.S.", "Holocaust survivors"],
+      "list": [
+        {
+          "slug": "ambassador-yoram-ettinger",
+          "name": "Ambassador Yoram Ettinger (Retd.)",
+          "affiliation": "U.S.–Israel relations",
+          "tags": ["Israel"],
+          "summary": "An expert in U.S.–Israel relations and a frequent guest. Known for humility and a love of music."
+        },
+        {
+          "slug": "bill-cloud",
+          "name": "Bill Cloud",
+          "affiliation": "Shoreshim Ministries",
+          "tags": ["Texas / U.S."],
+          "summary": "A Christian minister who teaches shared Hebraic roots. Based in Cleveland, Tennessee."
+        },
+        {
+          "slug": "bob-odell",
+          "name": "Bob Odell",
+          "affiliation": "Austin",
+          "tags": ["Texas / U.S."],
+          "summary": "A hi-tech entrepreneur and philanthropist from Austin. Author and speaker on Jewish and Israel-related causes."
+        },
+        {
+          "slug": "christine-peter-darg",
+          "name": "Christine and Peter Darg",
+          "affiliation": "The Jerusalem Channel / Exploits Ministry",
+          "tags": ["Israel"],
+          "summary": "Journalists and ministers in Israel since 1975. Christine is known for connecting with Orthodox Jews, Arabs, and Christians."
+        },
+        {
+          "slug": "colonel-john-sommerville",
+          "name": "Colonel John Sommerville and Mary",
+          "affiliation": "Author and trip leader",
+          "tags": ["Texas / U.S."],
+          "summary": "John has led Israel trips since 2009. Author of The Accidental Presidents Who Became Blessers of Israel."
+        },
+        {
+          "slug": "david-kiern",
+          "name": "David Kiern",
+          "affiliation": "I Am Israel",
+          "tags": ["Texas / U.S."],
+          "summary": "Filmmaker behind the short film I Am Israel. Brought to the Stacy home by Mike Isley."
+        },
+        {
+          "slug": "david-rose",
+          "name": "David Rose",
+          "affiliation": "Israel Magen Fund / ZAKA",
+          "tags": ["Israel"],
+          "summary": "Visited twice — first with ZAKA, later with the Israel Magen Fund, which supports vulnerable communities in the Binyamin region."
+        },
+        {
+          "slug": "david-wilder",
+          "name": "David Wilder",
+          "affiliation": "Hebron",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Former English spokesperson for the Jewish community of Hebron. A pivotal voice in TFSI’s understanding of Hebron."
+        },
+        {
+          "slug": "diane-jerry-benjamin",
+          "name": "Diane Benjamin and Jerry Benjamin",
+          "affiliation": "North Dallas",
+          "tags": ["Texas / U.S."],
+          "summary": "North Dallas figures known for Diane’s Shabbat dinners and activism, and Jerry’s work with Jewish War Veterans."
+        },
+        {
+          "slug": "dr-robert-janet-mawire",
+          "name": "Dr. Robert and Janet Mawire",
+          "affiliation": "Ariel",
+          "tags": ["Texas / U.S.", "Israel"],
+          "summary": "Pioneers in Christian–Jewish relations. Pastor Robert raised millions for Ariel’s development and formed a lasting friendship with Mayor Ron Nachman."
+        },
+        {
+          "slug": "dr-rusty-maisel",
+          "name": "Dr. Rusty Maisel",
+          "affiliation": "Enduring Word Museum",
+          "tags": ["Texas / U.S."],
+          "summary": "Authority on manuscript traditions who built working Gutenberg press replicas. His work continues at the Enduring Word Museum."
+        },
+        {
+          "slug": "dr-ryan-lambert",
+          "name": "Dr. Ryan Lambert",
+          "affiliation": "Jewish–Christian relations",
+          "tags": ["Texas / U.S."],
+          "summary": "Twenty years in Jewish–Christian relations, focused on the Jewishness of Jesus and Paul."
+        },
+        {
+          "slug": "dr-tim-virginia-shepherd",
+          "name": "Dr. Tim and Virginia Shepherd",
+          "affiliation": "Dallas",
+          "tags": ["Texas / U.S."],
+          "summary": "Dallas Christians who built genuine friendship with the Jewish community through support and inclusive gatherings."
+        },
+        {
+          "slug": "dror-vanunu",
+          "name": "Dror Vanunu",
+          "affiliation": "Gush Katif",
+          "tags": ["Israel"],
+          "summary": "An early visitor who represented Gush Katif refugees and spoke about the cost of land concessions."
+        },
+        {
+          "slug": "ethan-julie-sironi",
+          "name": "Ethan and Julie Sironi",
+          "affiliation": "Texas",
+          "tags": ["Texas / U.S."],
+          "summary": "Dinner guests whose love for Israel and the Jewish people has influenced the TFSI family and work."
+        },
+        {
+          "slug": "gidon-ariel",
+          "name": "Gidon Ariel",
+          "affiliation": "Root Source",
+          "tags": ["Israel"],
+          "summary": "Founder of Root Source, built for Jewish–Christian dialogue, study, and lasting relationships."
+        },
+        {
+          "slug": "helen-freedman",
+          "name": "Helen Freedman",
+          "affiliation": "Americans for a Safe Israel",
+          "tags": ["Texas / U.S.", "Heartland"],
+          "summary": "Former AFSI director and mentor. A tireless advocate for Judea and Samaria."
+        },
+        {
+          "slug": "james-louann-knight",
+          "name": "James (Poppa) and Louann Knight",
+          "affiliation": "Guests",
+          "tags": ["Texas / U.S."],
+          "summary": "Visited the home and left a hand-printed Esther Scroll that the family still keeps."
+        },
+        {
+          "slug": "jeremy-tehila-gimpel",
+          "name": "Jeremy and Tehila Gimpel",
+          "affiliation": "Arugot Farm / Land of Israel Fellowship",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Pivotal in the Sovereignty Movement and in reaching Christians through the Land of Israel Fellowship. Their work at Arugot Farm in the Judean hills is one of TFSI’s closest partnerships."
+        },
+        {
+          "slug": "jonathan-feldstein",
+          "name": "Jonathan Feldstein",
+          "affiliation": "Genesis 123 Foundation / Run For Zion",
+          "tags": ["Israel"],
+          "summary": "Connects Jews, Christians, and Israel through Run For Zion and the Genesis 123 Foundation."
+        },
+        {
+          "slug": "judy-freeman-kadish",
+          "name": "Judy Freeman Kadish",
+          "affiliation": "Americans for a Safe Israel",
+          "tags": ["Texas / U.S.", "Heartland"],
+          "summary": "Director of Americans for a Safe Israel. AFSI Chizuk Missions are how many of these friendships began.",
+          "story": [
+            "The Director of Americans for a Safe Israel. For several years, Judy was co-director with her mother, Helen Freedman. Judy knows the people in the Sovereignty Movement, other Israeli organizations, and their counterparts in America.",
+            "This organization changed Ann Stacy’s life in 2011 and continues to do so. AFSI goes twice a year on a Chizuk Mission. Most of the people TFSI has hosted were met through Americans for a Safe Israel.",
+            "A Holocaust survivor once said: if you go on one of their trips, it will be a trip like no other."
+          ],
+          "website": "https://afsi.org/about-us"
+        },
+        {
+          "slug": "judy-tashbook-safern",
+          "name": "Judy Tashbook Safern",
+          "affiliation": "Jerusalem",
+          "tags": ["Israel"],
+          "summary": "Former publisher of Dallas Jewish Monthly, now in Jerusalem. Organized the TFSI campaign that fed Israeli battalions."
+        },
+        {
+          "slug": "keith-jodi-anderson",
+          "name": "Keith and Jodi Anderson",
+          "affiliation": "Christian–Jewish relations",
+          "tags": ["Texas / U.S."],
+          "summary": "Pioneers in Christian–Jewish relations. There would be no Texans for a Safe Israel without them.",
+          "story": [
+            "There would be no Texans for a Safe Israel if not for this couple.",
+            "Ann met Jodi by phone in 2014, a few weeks before David Wilder arrived. In the days that followed, Jodi lost their son. Two weeks after that, doctors gave her a grim diagnosis. She never stopped working for Israel, Judea, Samaria, and the Jewish people.",
+            "Keith stayed behind the scenes and made sure the details were attended to. They led group trips to Israel and talked about their covenant friends and the promises of God. Jodi was mentor, cheerleader, and friend.",
+            "Keith later passed away. Jodi could not have done the work without him. He never gave up on one of the Stacy children."
+          ]
+        },
+        {
+          "slug": "kimberly-troop",
+          "name": "Kimberly Troop",
+          "affiliation": "Christian Friends of Israeli Communities",
+          "tags": ["Texas / U.S.", "Heartland"],
+          "summary": "American representative for CFOIC and a mentor in Jewish–Christian relations since 2011."
+        },
+        {
+          "slug": "laurie-cardoza-moore",
+          "name": "Laurie Cardoza Moore",
+          "affiliation": "Proclaiming Justice to the Nations",
+          "tags": ["Texas / U.S."],
+          "summary": "Founder of Proclaiming Justice to the Nations. Works on antisemitism and U.S. school reform."
+        },
+        {
+          "slug": "lily-sironi-mills",
+          "name": "Lily Sironi Mills",
+          "affiliation": "Israeli Ambassador at the U.N.",
+          "tags": ["Texas / U.S."],
+          "summary": "Once a high-school attendee at pro-Israel gatherings in the home. Later served with the Israeli Ambassador at the U.N."
+        },
+        {
+          "slug": "lori-hinze",
+          "name": "Lori Hinze",
+          "affiliation": "Israel tours",
+          "tags": ["Texas / U.S."],
+          "summary": "Leads immersive tours focused on the land’s rejuvenation, food, and cultural connection."
+        },
+        {
+          "slug": "luke-hilton",
+          "name": "Luke Hilton",
+          "affiliation": "HaYovel",
+          "tags": ["Israel", "Heartland"],
+          "summary": "HaYovel’s Director of Marketing. Work includes The Joshua and Caleb Report and The Israel Guys podcast."
+        },
+        {
+          "slug": "marc-provisor",
+          "name": "Marc Provisor",
+          "affiliation": "One Israel Fund / Shiloh",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Met in Israel with AFSI. Head of security for One Israel Fund; now also an artist. Artwork at marcpro.art.",
+          "website": "https://oneisraelfund.org"
+        },
+        {
+          "slug": "menachem-bar-shalom",
+          "name": "Menachem Bar-Shalom",
+          "affiliation": "Israel Magen Fund",
+          "tags": ["Israel"],
+          "summary": "Formerly with ZAKA; now works with Israel Magen Fund supporting Holocaust survivors in Ma'ale Adumim, including the piano given to a 90-year-old concert pianist."
+        },
+        {
+          "slug": "mike-isley",
+          "name": "Mike Isley",
+          "affiliation": "Texans for Israel",
+          "tags": ["Texas / U.S."],
+          "summary": "Founder and president of Texans for Israel, and Vice President of Texans for a Safe Israel."
+        },
+        {
+          "slug": "moshe-bar-zvi",
+          "name": "Moshe Bar Zvi",
+          "affiliation": "Jerusalem Post / Footsteps",
+          "tags": ["Israel"],
+          "summary": "Former president of the Jerusalem Post and founder of Footsteps. Visited during the 2015 snowstorm and still filled the house."
+        },
+        {
+          "slug": "pastor-raphael-cruz",
+          "name": "Pastor Rafael Cruz",
+          "affiliation": "Texas",
+          "tags": ["Texas / U.S."],
+          "summary": "A survivor of oppression in Cuba and a close family friend. Father of Senator Ted Cruz."
+        },
+        {
+          "slug": "rabbi-moshe-leah-goldsmith",
+          "name": "Rabbi Moshe and Leah Goldsmith",
+          "affiliation": "Itamar",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Close friends. Rabbi Goldsmith, then mayor of Itamar, guided a visit to the Fogel family home. Subsequent visits showed the daily reality of those communities."
+        },
+        {
+          "slug": "rabbi-richard-green",
+          "name": "Rabbi Richard Green",
+          "affiliation": "The Clarion Project",
+          "tags": ["Texas / U.S."],
+          "summary": "Co-founder of The Clarion Project, focused on extremist threats."
+        },
+        {
+          "slug": "rabbi-shlomo-abrams",
+          "name": "Rabbi Shlomo Abrams",
+          "affiliation": "Dallas Area Torah Association",
+          "tags": ["Texas / U.S."],
+          "summary": "A Dallas rabbi who teaches Torah, hosts events, and leads tours to Israel with his wife."
+        },
+        {
+          "slug": "rabbi-yehuda-glick",
+          "name": "Rabbi Yehuda Glick",
+          "affiliation": "Amitsim / Temple Mount",
+          "tags": ["Israel"],
+          "summary": "Religious Zionist leader and former Knesset member. Stayed in the home three times. Amitsim, headed with Hadass Glick, works with young widows and orphans."
+        },
+        {
+          "slug": "rabbi-yosef-abrams",
+          "name": "Rabbi Yosef Abrams",
+          "affiliation": "Dallas",
+          "tags": ["Texas / U.S."],
+          "summary": "Father of Rabbi Shlomo Abrams. Torah lessons on why Jews and Christians must close the gap between communities."
+        },
+        {
+          "slug": "shumel-junger",
+          "name": "Shumel Junger",
+          "affiliation": "Christian Friends of Israeli Communities",
+          "tags": ["Israel", "Heartland"],
+          "summary": "A Sabra and leader with CFOIC, connecting Jewish and Christian communities."
+        },
+        {
+          "slug": "sondra-oster-baras",
+          "name": "Sondra Oster Baras",
+          "affiliation": "CFOIC Heartland",
+          "tags": ["Israel", "Heartland"],
+          "summary": "From Ohio, family since 2011. Bridges Christians and Jews from the Heartland with law and Torah teaching."
+        },
+        {
+          "slug": "steve-wilhite",
+          "name": "Steve Wilhite",
+          "affiliation": "Daystar Christian TV",
+          "tags": ["Texas / U.S."],
+          "summary": "EVP of Daystar. Particular care for Orthodox and Religious Zionist communities."
+        },
+        {
+          "slug": "tommy-sherri-waller",
+          "name": "Tommy and Sherri Waller",
+          "affiliation": "HaYovel",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Left successful careers for the mountains of Israel. HaYovel greens the land and brings Christians into the harvest."
+        },
+        {
+          "slug": "tova-feldman",
+          "name": "Tova Feldman",
+          "affiliation": "Holocaust survivor, Arlington",
+          "tags": ["Holocaust survivors", "Texas / U.S."],
+          "summary": "A survivor who later came to Israel in 1949 and now lives in Arlington. Still teaches Hebrew.",
+          "story": [
+            "Tova’s family survived the Holocaust. After liberation they walked back into their hometown. Their house was still standing and stripped of everything. Nothing was returned. The carpentry shop had no tools.",
+            "They immigrated to Israel in 1949 and lived in crowded immigrant housing with a communal kitchen. Tova remembers the dances held to welcome new residents — people hoping to find a relative, or news of one.",
+            "She will not walk across a floor without her shoes. In the Shoah, shoes were the difference between life and death. The children were never allowed to remove them.",
+            "Tova is a strong speaker and still teaches Hebrew. She lives in Arlington in the Dallas–Fort Worth area. Contact TFSI to be put in touch with her."
+          ]
+        },
+        {
+          "slug": "yifa-segal",
+          "name": "Yifa Segal",
+          "affiliation": "Israeli diplomatic service",
+          "tags": ["Israel"],
+          "summary": "Hosted during a short visit with Judy Kadish. Had recently become Chief of Staff for Gilad Erdan, then Israeli Ambassador to the U.S. and the U.N."
+        },
+        {
+          "slug": "zac-waller",
+          "name": "Zac Waller",
+          "affiliation": "HaYovel",
+          "tags": ["Israel", "Heartland"],
+          "summary": "From Tennessee to Israel’s heartland. Executive Director of HaYovel."
+        }
+      ]
+    },
+    "jse": {
+      "kicker": "Judea and Samaria Experience",
+      "title": "Real places. Real people.",
+      "lead": "Personalized travel guidance so a visit to the Heartland is a conversation, not a packaged tour. Supported by Texans for a Safe Israel.",
+      "image": "/images/hills.jpg",
+      "imageAlt": "Terraced hills in Judea and Samaria",
+      "logo": "/images/jse-logo.png",
+      "steps": [
+        {
+          "title": "Share your vision",
+          "body": "One planning session. Who you are, what you care about, and what you hope to see."
+        },
+        {
+          "title": "Get matched",
+          "body": "The team connects you with service providers, communities, and destinations that fit your time and interests."
+        },
+        {
+          "title": "Experience the land",
+          "body": "Walk the land, meet the people, and work directly with the guides or hosts you were introduced to."
+        }
+      ],
+      "interests": [
+        {
+          "title": "Ancient paths and biblical roots",
+          "body": "Walk where the patriarchs walked. Sites that put the text on the ground."
+        },
+        {
+          "title": "Community stories and modern Zionism",
+          "body": "Meet the families building life in the Heartland now."
+        },
+        {
+          "title": "Wine, food, and local makers",
+          "body": "Growers, chefs, and wineries — including the Samaria vineyards."
+        },
+        {
+          "title": "Security, demography, and geopolitics",
+          "body": "Hear the current situation from people who live inside it."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you organize full tours?",
+          "a": "No. This is not a tour operator. The team listens, recommends, and connects. You then work directly with the guides or hosts they introduce."
+        },
+        {
+          "q": "Is there a cost for the consultation?",
+          "a": "No. The one-on-one planning session is free."
+        },
+        {
+          "q": "Can I book a full-day or half-day itinerary?",
+          "a": "They will help design a visit — a few hours or a full day — and refer you to trusted guides or hosts who can run it."
+        },
+        {
+          "q": "What kinds of visitors do you work with?",
+          "a": "Individuals, couples, families, small groups, first-timers, and returning visitors, including people with specific religious or cultural interests."
+        },
+        {
+          "q": "Is it safe to visit Judea and Samaria?",
+          "a": "Travelers are referred to locations and providers that understand current security and travel guidelines. Safety and comfort are the first filter."
+        },
+        {
+          "q": "Can you help with transportation or lodging?",
+          "a": "They do not book logistics directly. They will recommend transportation and lodging in or near the areas you will visit."
+        },
+        {
+          "q": "Can I bring a group or community?",
+          "a": "Yes. Tell them the goal of the group and they will shape the visit around it."
+        },
+        {
+          "q": "Is this a religious or political program?",
+          "a": "The point is the land through its people and stories — not slogans. The region is tied to biblical heritage and modern Zionism. Visitors from any background who will engage respectfully are welcome."
+        }
+      ],
+      "cta": { "label": "Plan a visit", "to": "/contact?topic=judea-samaria" }
+    }
+  },
+  "donate": {
+    "hero": {
+      "kicker": "Give",
+      "headline": "Keep the house able to answer the next call",
+      "lead": "Gifts go through Texans for a Safe Israel, a U.S. 501(c)(3). They fund security, survivors, soldiers, hosting, and the Judea and Samaria Experience.",
+      "image": "/images/judean-hills.jpg",
+      "imageAlt": "A road winding through the Judean hills toward a small community"
+    },
+    "tiers": {
+      "title": "Choose an amount",
+      "lead": "Select a level or enter your own. The button opens TFSI’s existing PayPal donation page with that amount filled in.",
+      "amounts": [
+        { "amount": 18, "label": "Chai" },
+        { "amount": 25, "label": "" },
+        { "amount": 50, "label": "" },
+        { "amount": 100, "label": "" },
+        { "amount": 250, "label": "" },
+        { "amount": 500, "label": "" },
+        { "amount": 1000, "label": "" }
+      ],
+      "designations": [
+        "Where it is needed most",
+        "Security and tactical supplies",
+        "Holocaust survivors",
+        "Soldiers and families",
+        "Hosting and education",
+        "Judea and Samaria Experience"
+      ],
+      "designationNote": "To designate a gift, add the designation in the PayPal note or write info@texansforasafeisrael.com after you give.",
+      "monthlyNote": "Monthly giving can be selected on the PayPal page.",
+      "button": "Continue to PayPal"
+    },
+    "stories": {
+      "kicker": "Where gifts go",
+      "title": "What the money actually does",
+      "lead": "Named people, named places, named items. No invented totals.",
+      "items": [
+        {
+          "title": "Meeting critical needs",
+          "body": [
+            "The Monday after the October 7 massacre, before Texas sunrise, TFSI called Jeremy Gimpel. His family and others live at Arugot Farm in the Judean Desert, surrounded by hostile neighbors. He needed a drone — the equivalent of fifty men on watch. The next day it was active. The farm later became a fortress for fifteen mothers and children while their fathers were at war."
+          ]
+        },
+        {
+          "title": "Holocaust survivors",
+          "body": [
+            "Survivors are often the group most wary of the word Christian. The work is kindness without proselytizing: two air conditioners, a refrigerator, washer and dryer, a deep freezer, iPads, phones, computers, a remodeled bathroom, a bread maker for challah, grocery cards at the holidays.",
+            "A 92-year-old concert pianist received a piano. If you want more on this work, contact the house and ask."
+          ]
+        },
+        {
+          "title": "Security",
+          "body": [
+            "Since October 7, TFSI has funded drones, bulletproof vests, scopes, cameras, helmets, medical bags, tactical boots, winter jackets, and a hand-warmer campaign. Communities helped include Har Bracha, Chavat Gilad, Arugot Farm, Susya, Itamar, Shiloh, and Homesh."
+          ]
+        },
+        {
+          "title": "Feed the soldiers",
+          "body": [
+            "Donations fed battalions in the field. Judy Tashbook Safern organized and raised most of those funds through tfsi.org — water, Coca-Cola, Red Bull, whatever they asked for."
+          ]
+        },
+        {
+          "title": "Emotional needs",
+          "body": [
+            "Amitsim, headed by Rabbi Yehuda and Hadass Glick, works with young widows and orphans. David Rubin’s Shiloh Israel Children’s Fund works with traumatized children. After October 7, that demand is not shrinking."
+          ]
+        },
+        {
+          "title": "Israel trips",
+          "body": [
+            "The first TFSI trip was May 2023: seven American Christians with nine American Jews from Americans for a Safe Israel. Contact the house for the next one."
+          ]
+        },
+        {
+          "title": "The Biblical Highway",
+          "body": [
+            "One long goal is that Route 60 become known as Israel’s national highway — the Biblical Highway. Rest stops in the Holy Cities, scenic overlooks, tourist information, a restaurant, a hotel. Tourism and Israeli business both change if people can actually travel the spine of the land."
+          ]
+        },
+        {
+          "title": "Young adult influencers",
+          "body": [
+            "Support for Israel is high among retired Americans and drops sharply in younger age groups. TFSI takes young people to the land. A page of those stories is still being built. Until then, the invitation is the same: come to Israel and become an influencer yourself."
+          ]
+        },
+        {
+          "title": "Texas–Israel Embassy",
+          "body": [
+            "A working embassy between the State of Texas and the State of Israel: staffers from Texas in Israel, staffers from Israel in Texas. A place Texans can go for assistance, guides, and recommended travel — and a place for Texas and Israeli businesses to meet."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Giving questions",
+      "items": [
+        {
+          "q": "Is my gift tax-deductible?",
+          "a": "Yes. Texans for a Safe Israel is a U.S. 501(c)(3), EIN 83-3309141. Contributions are tax-deductible in the United States to the extent allowed by law."
+        },
+        {
+          "q": "Can I give monthly?",
+          "a": "Yes. Choose an amount here, then select monthly giving on the PayPal page."
+        },
+        {
+          "q": "Can I designate a gift to a specific need?",
+          "a": "Yes. Add the designation in the PayPal note, or write info@texansforasafeisrael.com and say which project you want the gift to support."
+        },
+        {
+          "q": "Are gifts to the Judea and Samaria Experience deductible?",
+          "a": "U.S. gifts to that initiative are processed through TFSI and are tax-deductible in the United States."
+        }
+      ]
+    }
+  },
+  "media": {
+    "hero": {
+      "kicker": "Media",
+      "headline": "Hear the people before you meet them",
+      "lead": "The Live the Land podcast, gatherings in Texas, and photographs from the house and the Heartland.",
+      "image": "/images/land.jpg",
+      "imageAlt": "An olive tree over a city in Judea at sunset"
+    },
+    "podcast": {
+      "kicker": "Live the Land",
+      "title": "Israel travel podcast",
+      "lead": "Hosted by Franny Waisman. Hear the people and places before you go. Twenty-one episodes in season one.",
+      "link": {
+        "label": "Listen on Apple Podcasts",
+        "href": "https://podcasts.apple.com/us/podcast/live-the-land/id1860812584"
+      },
+      "episodes": [
+        {
+          "n": 30,
+          "title": "How Christians Help Israeli Farmers With Josh Waller",
+          "image": "/images/ep30.jpg",
+          "blurb": "Franny Waisman talks with Josh Waller about ordinary people, Israeli farmers, and whether human choices still matter."
+        },
+        {
+          "n": 29,
+          "title": "Israel’s Future Is Judea and Samaria with Natalie Sopinsky",
+          "image": "/images/ep29.jpg",
+          "blurb": "What looks dangerous from the outside is often ordinary life in Judea and Samaria. Natalie Sopinsky explains why."
+        },
+        {
+          "n": 28,
+          "title": "Why the Future Is Built by People Who Believe Before They See",
+          "image": "/images/ep28.jpg",
+          "blurb": "A Torah episode connecting King David’s mighty men, Israel’s early pioneers, and the people living in the Heartland now."
+        }
+      ]
+    },
+    "events": {
+      "kicker": "Gatherings",
+      "title": "Events",
+      "lead": "Live evenings in Texas, Facebook Live, Zoom, and trips to Israel. Listings below are from the current TFSI site. For what is next, write the house.",
+      "items": [
+        {
+          "date": "Sunday, March 1 · Weatherford, Texas",
+          "title": "Texans for a Safe Israel is coming to Weatherford",
+          "body": "An introduction to TFSI for the community. Meet and greet at 2:30 pm, invocation and remarks by Pastor Rafael Cruz, a presentation of TFSI’s history and current work, a Purim-themed teaching by Jeremy Chance Springfield, a message from Micha’el Ben David, a discussion panel, and a Mediterranean dinner at 5:30 pm with Hebrew Psalms in song.",
+          "detail": "$25 per person donation to TFSI. Tables of six for $150. Call or text Carol Ernst at 817-219-5982 to register; the location is provided on registration.",
+          "image": "/images/event-weatherford.jpg",
+          "imageAlt": "Event flyer for the Weatherford, Texas gathering",
+          "cta": { "label": "Give the $25 donation", "href": "https://www.paypal.com/donate/?hosted_button_id=5BDT84LVK8A8U&amount=25" }
+        },
+        {
+          "date": "February 15 · listed event",
+          "title": "Yair Levi concert",
+          "body": "The concert posted on the current TFSI events page. Tickets were processed through the same PayPal button used for gifts.",
+          "cta": { "label": "Open the PayPal page", "href": "https://www.paypal.com/donate/?hosted_button_id=5BDT84LVK8A8U" }
+        },
+        {
+          "date": "Ongoing",
+          "title": "Israeli guests in Texas",
+          "body": "When a speaker is coming through Granbury or Dallas–Fort Worth, TFSI gathers a room. If you want those invitations, send your name and email.",
+          "cta": { "label": "Ask to be notified", "to": "/contact?topic=gathering" }
+        }
+      ]
+    },
+    "gallery": {
+      "kicker": "Photographs",
+      "title": "The house and the Heartland",
+      "items": [
+        { "src": "/images/lodge-exterior.jpg", "alt": "The TFSI lodge in Granbury with Texas and Israeli flags", "caption": "The lodge in Granbury, Texas" },
+        { "src": "/images/lodge-flag.jpg", "alt": "Israeli flag inside the log lodge", "caption": "Inside the house" },
+        { "src": "/images/judean-hills.jpg", "alt": "Judean hills with a winding road", "caption": "The Judean hills" },
+        { "src": "/images/vineyard-friends.jpg", "alt": "Friends in a vineyard in Samaria", "caption": "A vineyard in Samaria" },
+        { "src": "/images/hebron.jpg", "alt": "Hebron and the surrounding hills", "caption": "Hebron" },
+        { "src": "/images/hills.jpg", "alt": "Terraced hills in Judea and Samaria", "caption": "Terraced hills of the Heartland" }
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contact",
+      "headline": "Write the house",
+      "lead": "Hosting, trips, volunteering, a speaker coming through Texas, or a need in Israel — start here.",
+      "image": "/images/judean-road.jpg",
+      "imageAlt": "A dirt road through the Judean hills"
+    },
+    "form": {
+      "title": "Send a message",
+      "note": "This opens an email to TFSI with your details filled in. Someone from the house will follow up.",
+      "topics": [
+        { "id": "general", "label": "General" },
+        { "id": "volunteer", "label": "Volunteer" },
+        { "id": "gathering", "label": "Host an Israeli guest or attend a gathering" },
+        { "id": "trip", "label": "Israel trip" },
+        { "id": "judea-samaria", "label": "Judea and Samaria Experience" },
+        { "id": "donation", "label": "Donation question" }
+      ],
+      "travelerTypes": ["Individual", "Couple", "Family", "Group"],
+      "interests": [
+        "Ancient paths and biblical roots",
+        "Community stories and modern Zionism",
+        "Wine, food, and local makers",
+        "Security, demography, and geopolitics"
+      ],
+      "submit": "Open email",
+      "confirm": "Your mail app should be open. If it is not, email"
+    },
+    "direct": {
+      "title": "Direct",
+      "note": "Join a live event, a Facebook Live or Zoom meeting, or come on a trip. The newsletter form on the old site is down. Use this page and ask to be added."
+    }
+  },
+  "notFound": {
+    "headline": "Page not found",
+    "body": "That address is not on this site.",
+    "cta": { "label": "Go to the home page", "to": "/" }
+  }
+}
