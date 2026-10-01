@@ -90,9 +90,8 @@
       "kicker": "A TFSI initiative",
       "title": "The Judea and Samaria Experience",
       "body": "Personalized travel guidance for people who want to walk the land and meet the people who live there. Not a tour company. One conversation, then a match with trusted guides and hosts.",
-      "image": "/images/hebron.jpg",
-      "imageAlt": "Hebron and the surrounding hills",
-      "logo": "/images/jse-logo.png",
+      "image": "/images/gallery-overlook.jpg",
+      "imageAlt": "Two travelers on a hilltop overlooking the Judean hills",
       "cta": { "label": "Plan a visit", "to": "/about#judea-samaria" }
     },
     "quote": {
@@ -509,7 +508,6 @@
       "lead": "Personalized travel guidance so a visit to the Heartland is a conversation, not a packaged tour. Supported by Texans for a Safe Israel.",
       "image": "/images/hills.jpg",
       "imageAlt": "Terraced hills in Judea and Samaria",
-      "logo": "/images/jse-logo.png",
       "steps": [
         {
           "title": "Share your vision",
@@ -785,7 +783,6 @@
         { "src": "/images/lodge-flag.jpg", "alt": "Israeli flag inside the log lodge", "caption": "Inside the house" },
         { "src": "/images/judean-hills.jpg", "alt": "Judean hills with a winding road", "caption": "The Judean hills" },
         { "src": "/images/vineyard-friends.jpg", "alt": "Friends in a vineyard in Samaria", "caption": "A vineyard in Samaria" },
-        { "src": "/images/hebron.jpg", "alt": "Hebron and the surrounding hills", "caption": "Hebron" },
         { "src": "/images/hills.jpg", "alt": "Terraced hills in Judea and Samaria", "caption": "Terraced hills of the Heartland" }
       ]
     }

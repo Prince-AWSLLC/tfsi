@@ -707,12 +707,47 @@ address {
 }
 
 .jse-mark {
-  width: 120px;
-  height: auto;
-  background: #fff;
-  padding: var(--s-3);
-  border-radius: var(--r-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-3);
   margin-bottom: var(--s-5);
+}
+
+.jse-mark-badge {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  fill: none;
+  stroke: var(--c-accent);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.jse-mark-badge rect {
+  stroke: rgba(197, 155, 39, 0.5);
+}
+
+.jse-mark-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.jse-mark-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.jse-mark-sub {
+  margin-top: 3px;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--c-accent);
 }
 
 /* ---------- Hero ---------- */

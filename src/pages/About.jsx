@@ -1,6 +1,7 @@
 import { CtaLink, Img, Paragraphs, T } from "../components/Bind";
 import Faq from "../components/Faq";
 import Hero from "../components/Hero";
+import JseMark from "../components/JseMark";
 import PeopleDirectory from "../components/PeopleDirectory";
 import SectionHead from "../components/SectionHead";
 import { useSite } from "../data/siteData";
@@ -66,7 +67,7 @@ export default function About() {
             <Img path="about.jse.image" altPath="about.jse.imageAlt" loading="lazy" decoding="async" />
           </figure>
           <div data-reveal>
-            <Img path="about.jse.logo" className="jse-mark" alt="" loading="lazy" decoding="async" />
+            <JseMark />
             <SectionHead path="about.jse" light />
             <ol className="steps" data-json="about.jse.steps">
               {steps.map((step, index) => (

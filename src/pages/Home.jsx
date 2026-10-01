@@ -1,5 +1,6 @@
 import { CtaLink, Img, Paragraphs, T } from "../components/Bind";
 import Hero from "../components/Hero";
+import JseMark from "../components/JseMark";
 import SectionHead from "../components/SectionHead";
 import { useSite } from "../data/siteData";
 
@@ -67,7 +68,7 @@ export default function Home() {
             <Img path="home.jse.image" altPath="home.jse.imageAlt" loading="lazy" decoding="async" />
           </figure>
           <div data-reveal>
-            <Img path="home.jse.logo" className="jse-mark" alt="" loading="lazy" decoding="async" />
+            <JseMark />
             <SectionHead path="home.jse" lead={false} light />
             <T path="home.jse.body" as="p" className="lead" />
             <div className="section-actions">
