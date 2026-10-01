@@ -1,5 +1,5 @@
-import { useEffect, useLayoutEffect } from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { useSite } from "../data/siteData";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -13,8 +13,56 @@ const TITLES = {
   "/contact": "Contact | Texans for a Safe Israel",
 };
 
-function useRouteEffects(ready) {
-  const { pathname, hash } = useLocation();
+const VEIL_COVER_MS = 380;
+const VEIL_TOTAL_MS = 900;
+
+function prefersReducedMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function useRouteTransition(ready) {
+  const location = useLocation();
+  const [shown, setShown] = useState(location);
+  const [veil, setVeil] = useState(0);
+  const shownRef = useRef(location);
+  const pending = useRef(location);
+  const busy = useRef(false);
+  const timers = useRef([]);
+
+  useEffect(() => {
+    const show = (next) => {
+      shownRef.current = next;
+      setShown(next);
+    };
+
+    const run = () => {
+      busy.current = true;
+      setVeil((n) => n + 1);
+      timers.current = [
+        window.setTimeout(() => show(pending.current), VEIL_COVER_MS),
+        window.setTimeout(() => {
+          busy.current = false;
+          if (pending.current.pathname !== shownRef.current.pathname) run();
+          else if (pending.current !== shownRef.current) show(pending.current);
+        }, VEIL_TOTAL_MS),
+      ];
+    };
+
+    pending.current = location;
+    if (!ready || prefersReducedMotion() || location.pathname === shownRef.current.pathname) {
+      show(location);
+      return;
+    }
+    if (!busy.current) run();
+  }, [location, ready]);
+
+  useEffect(() => () => timers.current.forEach((id) => window.clearTimeout(id)), []);
+
+  return { shown, veil };
+}
+
+function useRouteEffects(shown, ready) {
+  const { pathname, hash } = shown;
 
   useEffect(() => {
     document.title = TITLES[pathname] ?? "Texans for a Safe Israel";
@@ -33,8 +81,8 @@ function useRouteEffects(ready) {
   }, [pathname, hash, ready]);
 }
 
-function useReveal(ready) {
-  const { pathname } = useLocation();
+function useReveal(shown, ready) {
+  const { pathname } = shown;
 
   useEffect(() => {
     if (!ready) return undefined;
@@ -42,8 +90,7 @@ function useReveal(ready) {
     const nodes = Array.from(document.querySelectorAll("[data-reveal]"));
     if (nodes.length === 0) return undefined;
 
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || !("IntersectionObserver" in window)) {
+    if (prefersReducedMotion() || !("IntersectionObserver" in window)) {
       nodes.forEach((node) => node.classList.add("is-in"));
       return undefined;
     }
@@ -65,12 +112,12 @@ function useReveal(ready) {
   }, [pathname, ready]);
 }
 
-export default function Layout() {
-  const { ready, error, retry } = useSite();
-  const { pathname } = useLocation();
+export default function Layout({ children }) {
+  const { ready, error, retry, get } = useSite();
+  const { shown, veil } = useRouteTransition(ready);
 
-  useRouteEffects(ready);
-  useReveal(ready);
+  useRouteEffects(shown, ready);
+  useReveal(shown, ready);
 
   useEffect(() => {
     if (!ready) return;
@@ -103,10 +150,16 @@ export default function Layout() {
         Skip to content
       </a>
       <Header />
-      <main id="main" key={pathname} className="page page-enter">
-        <Outlet />
+      <main id="main" key={shown.pathname} className="page page-enter">
+        {children(shown)}
       </main>
       <Footer />
+      {veil > 0 ? (
+        <div key={veil} className="route-veil" aria-hidden="true">
+          <img src={get("org.logo")} alt="" width="68" height="50" />
+          <span className="route-veil-rule" />
+        </div>
+      ) : null}
     </>
   );
 }

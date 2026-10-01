@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { CtaLink } from "../components/Bind";
 import Hero from "../components/Hero";
+import PersonMark from "../components/PersonMark";
 import SectionHead from "../components/SectionHead";
 import { useSite } from "../data/siteData";
 
@@ -25,6 +26,7 @@ export default function Media() {
   const episodes = get("media.podcast.episodes") ?? [];
   const events = get("media.events.items") ?? [];
   const gallery = get("media.gallery.items") ?? [];
+  const people = get("about.people.list") ?? [];
 
   return (
     <>
@@ -89,12 +91,41 @@ export default function Media() {
         </div>
       </section>
 
-      <section className="section" id="gallery">
+      <section className="section" id="people">
         <div className="wrap">
-          <SectionHead path="media.gallery" lead={false} />
+          <SectionHead path="media.people" />
+          <ul className="guest-grid" data-json="about.people.list">
+            {people.map((person, index) => (
+              <li key={person.slug} data-reveal style={{ "--i": index % 5 }}>
+                <Link
+                  className="guest"
+                  to={`/about?guest=${person.slug}#people`}
+                  aria-label={`${person.name} in the guest directory`}
+                >
+                  <PersonMark person={person} size="lg" />
+                  <span className="guest-name">{person.name}</span>
+                  <span className="guest-affiliation">{person.affiliation}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="section-actions" data-reveal>
+            <CtaLink path="media.people.cta" className="btn btn-primary" />
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-tint" id="gallery">
+        <div className="wrap">
+          <SectionHead path="media.gallery" />
           <ul className="gallery" data-json="media.gallery.items">
             {gallery.map((item, index) => (
-              <li key={item.src} className="gallery-item" data-reveal style={{ "--i": index % 3 }}>
+              <li
+                key={item.src}
+                className={`gallery-item${item.wide ? " is-wide" : ""}`}
+                data-reveal
+                style={{ "--i": index % 3 }}
+              >
                 <figure>
                   <img src={item.src} alt={item.alt} loading="lazy" decoding="async" />
                   <figcaption>{item.caption}</figcaption>

@@ -1,15 +1,19 @@
 import { useDeferredValue, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useSite } from "../data/siteData";
 import { Field } from "./Field";
+import PersonMark from "./PersonMark";
 
 export default function PeopleDirectory() {
   const { get } = useSite();
   const people = get("about.people.list") ?? [];
   const tags = get("about.people.tags") ?? ["All"];
+  const [searchParams] = useSearchParams();
+  const requested = people.find((person) => person.slug === searchParams.get("guest"));
 
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(requested?.name ?? "");
   const [tag, setTag] = useState("All");
-  const [openSlug, setOpenSlug] = useState(null);
+  const [openSlug, setOpenSlug] = useState(requested?.slug ?? null);
   const deferredQuery = useDeferredValue(query);
 
   const rows = useMemo(() => {
@@ -58,15 +62,22 @@ export default function PeopleDirectory() {
         <p className="empty">No guests match that search. Clear the filter or try another name.</p>
       ) : (
         <ul className="directory-list">
-          {rows.map((person) => {
+          {rows.map((person, index) => {
             const hasStory = Array.isArray(person.story) && person.story.length > 0;
             const expanded = openSlug === person.slug;
             return (
-              <li key={person.slug} className={`directory-row${expanded ? " is-open" : ""}`}>
+              <li
+                key={person.slug}
+                className={`directory-row${expanded ? " is-open" : ""}`}
+                style={{ "--i": Math.min(index, 10) }}
+              >
                 <div className="directory-main">
                   <div className="directory-name">
-                    <h3>{person.name}</h3>
-                    <span className="directory-affiliation">{person.affiliation}</span>
+                    <PersonMark person={person} />
+                    <div>
+                      <h3>{person.name}</h3>
+                      <span className="directory-affiliation">{person.affiliation}</span>
+                    </div>
                   </div>
                   <p className="directory-summary">{person.summary}</p>
                   <div className="directory-meta">

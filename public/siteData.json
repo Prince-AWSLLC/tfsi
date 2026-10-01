@@ -205,6 +205,16 @@
           "summary": "Visited twice — first with ZAKA, later with the Israel Magen Fund, which supports vulnerable communities in the Binyamin region."
         },
         {
+          "slug": "david-rubin",
+          "name": "David Rubin",
+          "affiliation": "Shiloh Israel Children’s Fund",
+          "tags": ["Israel", "Heartland"],
+          "summary": "Former mayor of Shiloh and founder of the Shiloh Israel Children’s Fund. Photographed at the house with Ann Stacy.",
+          "photo": "/images/guest-ann-stacy-david-rubin.jpg",
+          "photoAlt": "Ann Stacy and David Rubin beneath the Israeli flag in the lodge",
+          "photoPosition": "center 78%"
+        },
+        {
           "slug": "david-wilder",
           "name": "David Wilder",
           "affiliation": "Hebron",
@@ -425,7 +435,9 @@
           "name": "Rabbi Yehuda Glick",
           "affiliation": "Amitsim / Temple Mount",
           "tags": ["Israel"],
-          "summary": "Religious Zionist leader and former Knesset member. Stayed in the home three times. Amitsim, headed with Hadass Glick, works with young widows and orphans."
+          "summary": "Religious Zionist leader and former Knesset member. Stayed in the home three times. Amitsim, headed with Hadass Glick, works with young widows and orphans.",
+          "photo": "/images/guest-yehuda-glick.jpg",
+          "photoAlt": "Rabbi Yehuda Glick seated in the lodge"
         },
         {
           "slug": "rabbi-yosef-abrams",
@@ -748,10 +760,27 @@
         }
       ]
     },
+    "people": {
+      "kicker": "Guests",
+      "title": "People we have hosted",
+      "lead": "Speakers, pioneers, and friends who have stayed at the house or spoken for TFSI. Open a name for the longer account.",
+      "cta": { "label": "Open the full directory", "to": "/about#people" }
+    },
     "gallery": {
       "kicker": "Photographs",
       "title": "The house and the Heartland",
+      "lead": "From the TFSI gallery: gatherings at the lodge in Granbury and visits to Israel.",
       "items": [
+        { "src": "/images/gallery-lodge-dinner.jpg", "alt": "Guests seated for dinner inside the log lodge while a speaker addresses the table", "caption": "A speaker’s dinner at the lodge", "wide": true },
+        { "src": "/images/gallery-lakeside.jpg", "alt": "Four visitors standing on the lawn behind the lodge with the lake behind them", "caption": "Visitors on the lawn behind the house" },
+        { "src": "/images/gallery-gathering.jpg", "alt": "Three guests at a TFSI gathering in a crowded room", "caption": "A TFSI gathering in Texas" },
+        { "src": "/images/gallery-soldiers-visit.jpg", "alt": "Two IDF soldiers with two visitors holding snack bags", "caption": "Visiting soldiers in Israel" },
+        { "src": "/images/gallery-soldiers-road.jpg", "alt": "Four IDF soldiers and a visitor by the roadside", "caption": "On the road with IDF soldiers" },
+        { "src": "/images/gallery-samaria-group.jpg", "alt": "Five travelers on an overlook above the hills of Samaria", "caption": "An overlook in Samaria" },
+        { "src": "/images/gallery-overlook.jpg", "alt": "Two women on a rocky hilltop overlooking the Judean hills", "caption": "Above the hills of Judea" },
+        { "src": "/images/gallery-tent-meal.jpg", "alt": "Five people standing together inside a large tent set for a meal", "caption": "A meal under the tent in Israel" },
+        { "src": "/images/gallery-family-israel.jpg", "alt": "A family with young children in a home in Israel", "caption": "A visit to a family in the Heartland" },
+        { "src": "/images/gallery-tour-group.jpg", "alt": "A tour group smiling together indoors", "caption": "A TFSI tour group in Israel" },
         { "src": "/images/lodge-exterior.jpg", "alt": "The TFSI lodge in Granbury with Texas and Israeli flags", "caption": "The lodge in Granbury, Texas" },
         { "src": "/images/lodge-flag.jpg", "alt": "Israeli flag inside the log lodge", "caption": "Inside the house" },
         { "src": "/images/judean-hills.jpg", "alt": "Judean hills with a winding road", "caption": "The Judean hills" },

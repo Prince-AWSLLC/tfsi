@@ -601,6 +601,30 @@ address {
   margin-bottom: var(--s-3);
 }
 
+.section-head .kicker {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.section-head.align-center .kicker {
+  justify-content: center;
+}
+
+.section-head .kicker::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform var(--t-slow) var(--ease) 150ms;
+}
+
+.section-head.is-in .kicker::before {
+  transform: scaleX(1);
+}
+
 .section-head.align-center {
   text-align: center;
 }
@@ -748,6 +772,39 @@ address {
 .hero-title {
   color: #fff;
   margin-bottom: var(--s-5);
+}
+
+.hero-word {
+  display: inline-block;
+}
+
+.page-enter .hero-word {
+  animation: rise 0.9s var(--ease) both;
+  animation-delay: calc(260ms + var(--i, 0) * 45ms);
+}
+
+.page-enter .hero .kicker,
+.page-enter .hero .lead,
+.page-enter .hero-actions {
+  animation: rise 0.9s var(--ease) both;
+}
+
+.page-enter .hero .kicker {
+  animation-delay: 180ms;
+}
+
+.page-enter .hero .lead {
+  animation-delay: 520ms;
+}
+
+.page-enter .hero-actions {
+  animation-delay: 620ms;
+}
+
+.page-enter .hero-copy::before {
+  transform-origin: left center;
+  animation: draw 1s var(--ease) both;
+  animation-delay: 200ms;
 }
 
 .hero .lead {
@@ -1502,6 +1559,8 @@ address {
   border-bottom: 1px solid var(--c-line);
   padding: var(--s-5) 0;
   transition: background-color var(--t-fast) var(--ease);
+  animation: rise 0.6s var(--ease) both;
+  animation-delay: calc(var(--i, 0) * 40ms);
 }
 
 .directory-main {
@@ -1510,9 +1569,137 @@ address {
   gap: var(--s-2) var(--s-6);
 }
 
+.directory-name {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-3);
+}
+
 .directory-name h3 {
   font-size: 1.2rem;
   margin-bottom: 2px;
+}
+
+/* ---------- Person marks ---------- */
+.mark {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  overflow: hidden;
+  border-radius: var(--r-sm);
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  user-select: none;
+}
+
+.mark-sm {
+  width: 52px;
+  height: 52px;
+  font-size: 1.15rem;
+}
+
+.mark-lg {
+  width: 100%;
+  aspect-ratio: 1;
+  font-size: clamp(2rem, 1.2rem + 2.6vw, 3rem);
+}
+
+.mark-0 {
+  background: var(--c-primary);
+  color: var(--c-accent);
+}
+
+.mark-1 {
+  background: var(--c-surface);
+  color: var(--c-primary);
+  box-shadow: inset 0 0 0 1.5px var(--c-primary);
+}
+
+.mark-2 {
+  background: var(--c-accent-soft);
+  color: var(--c-primary-deep);
+}
+
+.mark-photo {
+  background: var(--c-primary-soft);
+}
+
+.mark-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 1s var(--ease);
+}
+
+.mark-lg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--c-accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform var(--t) var(--ease);
+}
+
+/* ---------- Guest grid (Media) ---------- */
+.guest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-5) var(--s-4);
+}
+
+.guest {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.guest-name {
+  display: block;
+  margin-top: var(--s-3);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: var(--c-primary);
+  transition: color var(--t) var(--ease);
+}
+
+.guest-affiliation {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--c-muted);
+}
+
+.guest:hover .guest-name,
+.guest:focus-visible .guest-name {
+  color: var(--c-accent-deep);
+}
+
+.guest:hover .mark-lg::after,
+.guest:focus-visible .mark-lg::after {
+  transform: scaleX(1);
+}
+
+.guest:hover .mark-photo img {
+  transform: scale(1.04);
+}
+
+.guest:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 4px;
+  border-radius: var(--r-sm);
 }
 
 .directory-affiliation {
@@ -1691,6 +1878,10 @@ address {
 
 .gallery-item:hover img {
   transform: scale(1.04);
+}
+
+.gallery-item.is-wide figure {
+  aspect-ratio: 16 / 9;
 }
 
 .gallery figcaption {
@@ -1893,6 +2084,118 @@ address {
   }
 }
 
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- Route transition ---------- */
+.route-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-4);
+  background: var(--c-primary);
+  pointer-events: none;
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  animation: veil 0.9s var(--ease) both;
+  will-change: transform;
+}
+
+.route-veil img {
+  width: 68px;
+  height: 50px;
+  opacity: 0;
+  animation: veil-mark 0.9s var(--ease) both;
+}
+
+.route-veil-rule {
+  width: 56px;
+  height: 2px;
+  background: var(--c-accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: veil-rule 0.9s var(--ease) both;
+}
+
+@keyframes veil {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+  }
+  40% {
+    transform: scaleY(1);
+    transform-origin: 50% 100%;
+  }
+  52% {
+    transform: scaleY(1);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: 50% 0%;
+  }
+}
+
+@keyframes veil-mark {
+  0%,
+  28% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  42%,
+  58% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  72%,
+  100% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes veil-rule {
+  0%,
+  34% {
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+  54% {
+    transform: scaleX(1);
+    transform-origin: left center;
+  }
+  56% {
+    transform: scaleX(1);
+    transform-origin: right center;
+  }
+  74%,
+  100% {
+    transform: scaleX(0);
+    transform-origin: right center;
+  }
+}
+
 @keyframes hero-photo {
   from {
     opacity: 0;
@@ -1917,8 +2220,26 @@ address {
 
   .page-enter,
   .page-enter .hero-media img,
+  .page-enter .hero-word,
+  .page-enter .hero .kicker,
+  .page-enter .hero .lead,
+  .page-enter .hero-actions,
+  .page-enter .hero-copy::before,
+  .directory-row,
+  .route-veil,
+  .route-veil img,
+  .route-veil-rule,
   .spinner-ring {
     animation: none;
+  }
+
+  .route-veil {
+    display: none;
+  }
+
+  .section-head .kicker::before {
+    transform: scaleX(1);
+    transition: none;
   }
 
   .btn,
@@ -1942,6 +2263,9 @@ address {
   .field select,
   .field textarea,
   .field label,
+  .mark-lg::after,
+  .mark-photo img,
+  .guest-name,
   .site-header {
     transition-duration: 0.01ms;
   }
@@ -1967,6 +2291,14 @@ address {
   .story-grid,
   .gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-item.is-wide {
+    grid-column: span 2;
+  }
+
+  .guest-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .leader-grid {
@@ -2090,6 +2422,11 @@ address {
   .story-grid,
   .gallery {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guest-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: var(--s-6) var(--s-5);
   }
 
   .closing-inner {
