@@ -276,13 +276,13 @@ address {
 .btn-accent {
   background: var(--c-accent);
   border-color: var(--c-accent);
-  color: var(--c-primary-deep);
+  color: #fff;
 }
 
 .btn-accent:hover {
-  background: #d4ab3a;
-  border-color: #d4ab3a;
-  color: var(--c-primary-deep);
+  background: var(--c-accent-deep);
+  border-color: var(--c-accent-deep);
+  color: #fff;
 }
 
 .btn-ghost {
@@ -509,7 +509,7 @@ address {
 }
 
 .drawer-nav a.active:not(.btn) {
-  color: var(--c-accent);
+  color: #fff;
 }
 
 .drawer-nav a,
@@ -590,7 +590,7 @@ address {
 }
 
 .section-dark .kicker {
-  color: var(--c-accent);
+  color: var(--c-on-dark);
 }
 
 .section-head {
@@ -747,7 +747,7 @@ address {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--c-accent);
+  color: var(--c-on-dark);
 }
 
 /* ---------- Hero ---------- */
@@ -801,7 +801,7 @@ address {
 }
 
 .hero .kicker {
-  color: var(--c-accent);
+  color: var(--c-on-dark);
 }
 
 .hero-title {
@@ -1645,7 +1645,7 @@ address {
 
 .mark-0 {
   background: var(--c-primary);
-  color: var(--c-accent);
+  color: var(--c-on-dark);
 }
 
 .mark-1 {
@@ -1986,7 +1986,7 @@ address {
 
 .footer-nav a:hover,
 .footer-contact a:hover {
-  color: var(--c-accent);
+  color: #fff;
 }
 
 .footer-contact {
