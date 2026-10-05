@@ -137,8 +137,6 @@ export default function Contact() {
                 <br />
                 <T path="org.city" />
               </span>
-              <span className="contact-card-label">Phone</span>
-              <a href={get("org.phoneHref")}>{get("org.phone")}</a>
               <span className="contact-card-label">Email</span>
               <a href={`mailto:${email}`}>{email}</a>
             </address>

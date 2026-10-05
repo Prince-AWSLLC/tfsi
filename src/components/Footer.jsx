@@ -25,7 +25,6 @@ export default function Footer() {
         <address className="footer-contact">
           <T path="org.poBox" as="span" />
           <T path="org.city" as="span" />
-          <a href={get("org.phoneHref")}>{get("org.phone")}</a>
           <a href={`mailto:${get("org.email")}`}>{get("org.email")}</a>
         </address>
       </div>

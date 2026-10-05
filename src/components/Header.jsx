@@ -151,9 +151,6 @@ export default function Header() {
           <a href={`mailto:${get("org.email")}`} tabIndex={open ? 0 : -1}>
             {get("org.email")}
           </a>
-          <a href={get("org.phoneHref")} tabIndex={open ? 0 : -1}>
-            {get("org.phone")}
-          </a>
         </div>
       </div>
     </header>
