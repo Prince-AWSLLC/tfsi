@@ -3,9 +3,9 @@
   --c-primary: #0d233a;
   --c-primary-deep: #081827;
   --c-primary-soft: #16314e;
-  --c-accent: #c8102e;
-  --c-accent-deep: #a50d26;
-  --c-accent-soft: #fbe9ec;
+  --c-accent: #7a1428;
+  --c-accent-deep: #5c0f1e;
+  --c-accent-soft: #f5e8eb;
   --c-bg: #f4f6f9;
   --c-surface: #ffffff;
   --c-ink: #121a24;
@@ -725,7 +725,7 @@ address {
 }
 
 .jse-mark-badge rect {
-  stroke: rgba(200, 16, 46, 0.5);
+  stroke: rgba(122, 20, 40, 0.5);
 }
 
 .jse-mark-text {
