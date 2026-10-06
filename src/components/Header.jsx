@@ -122,9 +122,10 @@ export default function Header() {
         ref={drawerRef}
         className="drawer"
         role="dialog"
-        aria-modal="true"
+        aria-modal={open}
         aria-label="Site menu"
         aria-hidden={!open}
+        inert={open ? undefined : ""}
       >
         <nav className="drawer-nav" aria-label="Mobile">
           {nav.map((item, index) => (

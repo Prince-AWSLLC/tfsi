@@ -480,6 +480,7 @@ address {
   color: #fff;
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transform: translateY(-12px);
   transition: opacity var(--t) var(--ease), transform var(--t) var(--ease),
     visibility 0s linear var(--t);
@@ -488,6 +489,7 @@ address {
 .site-header.is-open .drawer {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
   transform: translateY(0);
   transition: opacity var(--t) var(--ease), transform var(--t) var(--ease), visibility 0s;
 }
