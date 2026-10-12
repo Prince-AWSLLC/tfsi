@@ -11,6 +11,8 @@ const TITLES = {
   "/donate": "Donate | Texans for a Safe Israel",
   "/media": "Media | Texans for a Safe Israel",
   "/contact": "Contact | Texans for a Safe Israel",
+  "/privacy": "Privacy Policy | Texans for a Safe Israel",
+  "/terms": "Terms and Conditions | Texans for a Safe Israel",
 };
 
 const VEIL_COVER_MS = 380;

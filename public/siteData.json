@@ -819,6 +819,152 @@
       "note": "Join a live event, a Facebook Live or Zoom meeting, or come on a trip. The newsletter form on the old site is down. Use this page and ask to be added."
     }
   },
+  "legal": {
+    "privacy": {
+      "kicker": "Legal",
+      "title": "Privacy Policy",
+      "updated": "Last updated: October 12, 2026",
+      "sections": [
+        {
+          "heading": "1. Introduction",
+          "body": [
+            "Texans for a Safe Israel (“TFSI,” “we,” “us”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you participate in the Texans for a Safe Israel SMS campaign or use this website."
+          ]
+        },
+        {
+          "heading": "2. Information we collect",
+          "body": [
+            "Personal information: When you opt in to our SMS campaign, we collect your phone number and any other information you provide, such as your name or email address.",
+            "Usage data: We may collect information about how you interact with our messages, such as message opens, links clicked, and responses to messages.",
+            "Website: The contact form on this site opens an email in your own mail program. We receive only what you choose to send. Donations are processed by PayPal; TFSI does not receive or store your card or bank details. Our hosting provider may record standard request logs, such as IP address, browser type, and pages requested. The site loads fonts from Google Fonts, which receives your IP address as part of that request."
+          ]
+        },
+        {
+          "heading": "3. How we use your information",
+          "list": [
+            "Communication: to send you updates, promotions, and information about Texans for a Safe Israel.",
+            "Customer service: to respond to your inquiries and provide assistance.",
+            "Improvement: to improve our services and tailor our communications to your preferences.",
+            "Donations: to acknowledge gifts and provide tax receipts."
+          ]
+        },
+        {
+          "heading": "4. Data sharing and disclosure",
+          "body": [
+            "We do not sell, trade, or otherwise transfer your personal information to outside parties for any purposes.",
+            "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.",
+            "We may disclose information when required by law."
+          ]
+        },
+        {
+          "heading": "5. Data security",
+          "body": [
+            "We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the internet or electronic storage is 100% secure."
+          ]
+        },
+        {
+          "heading": "6. Your choices",
+          "body": [
+            "Opt-out: You can opt out of our SMS campaign at any time by texting STOP to +1 (214) 882-1417.",
+            "Information access: You can request access to the personal information we hold about you and request that we correct or delete it by contacting us at the address below."
+          ]
+        },
+        {
+          "heading": "7. Changes to this Privacy Policy",
+          "body": [
+            "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page with a new “last updated” date."
+          ]
+        },
+        {
+          "heading": "8. Contact us",
+          "body": [
+            "If you have any questions about this Privacy Policy, contact us at ann@tfsi.org or write to Texans for a Safe Israel, P.O. Box 6671, Granbury, TX 76049-9998."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "kicker": "Legal",
+      "title": "Terms and Conditions",
+      "updated": "Last updated: October 12, 2026",
+      "sections": [
+        {
+          "heading": "1. Introduction",
+          "body": [
+            "By opting in to the Texans for a Safe Israel SMS campaign or using this website, you agree to these Terms and Conditions. Please read them carefully."
+          ]
+        },
+        {
+          "heading": "2. Program description",
+          "body": [
+            "The Texans for a Safe Israel SMS campaign sends updates about TFSI events, visiting guests, trips, and ways to support the Jewish people in Israel."
+          ]
+        },
+        {
+          "heading": "3. Participation",
+          "body": [
+            "Participation in this SMS campaign is free. Message and data rates may apply based on your mobile carrier’s plan."
+          ]
+        },
+        {
+          "heading": "4. Opt-in and opt-out",
+          "body": [
+            "Opt-in: To join the SMS campaign, text START to +1 (214) 882-1417, approve verbally in person, or use an online form.",
+            "Opt-out: To stop receiving messages, text STOP to +1 (214) 882-1417 at any time. You will receive a confirmation message that you have been unsubscribed.",
+            "Help: For assistance, email ann@tfsi.org or call (469) 251-9292."
+          ]
+        },
+        {
+          "heading": "5. Message frequency",
+          "body": [
+            "Participants will receive up to 3 messages per week: updates, promotions, and related information."
+          ]
+        },
+        {
+          "heading": "6. Privacy",
+          "body": [
+            "Your privacy is important to us. Please review our Privacy Policy, linked at the bottom of every page of this site, for information on how we collect, use, and protect your personal data."
+          ]
+        },
+        {
+          "heading": "7. Donations",
+          "body": [
+            "Donations made through this website are processed by PayPal and are subject to PayPal’s terms. Texans for a Safe Israel is a 501(c)(3) nonprofit, EIN 83-3309141. Contributions are tax-deductible in the United States to the extent allowed by law."
+          ]
+        },
+        {
+          "heading": "8. Website content and links",
+          "body": [
+            "Content on this website is provided for general information. Links to other websites, such as podcasts, partner organizations, and PayPal, are provided for convenience; TFSI is not responsible for the content or practices of those sites."
+          ]
+        },
+        {
+          "heading": "9. Limitation of liability",
+          "body": [
+            "We are not responsible for any technical issues, including but not limited to SMS delivery failures, mobile carrier issues, or any other technical malfunctions. Carriers are not liable for delayed or undelivered messages. By participating, you agree that we will not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use of the information or services provided through this SMS campaign or website."
+          ]
+        },
+        {
+          "heading": "10. Changes to these Terms and Conditions",
+          "body": [
+            "We may update these Terms and Conditions from time to time. We will notify you of any changes by posting the new Terms and Conditions on this page with a new “last updated” date."
+          ]
+        },
+        {
+          "heading": "11. Governing law",
+          "body": [
+            "These Terms and Conditions are governed by and construed in accordance with the laws of the State of Texas, USA, without regard to its conflict of law principles."
+          ]
+        },
+        {
+          "heading": "12. Contact us",
+          "body": [
+            "If you have any questions or concerns about these Terms and Conditions, contact us at ann@tfsi.org or write to Texans for a Safe Israel, P.O. Box 6671, Granbury, TX 76049-9998."
+          ]
+        }
+      ]
+    }
+  },
   "notFound": {
     "headline": "Page not found",
     "body": "That address is not on this site.",

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Donate from "./pages/Donate";
 import Media from "./pages/Media";
 import Contact from "./pages/Contact";
+import Legal from "./pages/Legal";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
           <Route path="/donate" element={<Donate />} />
           <Route path="/media" element={<Media />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Legal path="legal.privacy" />} />
+          <Route path="/terms" element={<Legal path="legal.terms" />} />
           <Route path="/work" element={<Navigate to="/donate#where-gifts-go" replace />} />
           <Route path="/people" element={<Navigate to="/about#people" replace />} />
           <Route path="/people/*" element={<Navigate to="/about#people" replace />} />

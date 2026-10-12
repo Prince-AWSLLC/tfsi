@@ -2005,6 +2005,40 @@ address {
   color: var(--c-on-dark-muted);
 }
 
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-4);
+}
+
+.footer-legal-links a {
+  color: var(--c-on-dark);
+}
+
+/* ---------- Legal pages ---------- */
+.legal-updated {
+  font-size: var(--fs-sm);
+  color: var(--c-muted);
+  margin-bottom: var(--s-6);
+}
+
+.legal-section {
+  margin-bottom: var(--s-6);
+}
+
+.legal-section h2 {
+  margin-bottom: var(--s-3);
+}
+
+.legal-section ul {
+  max-width: 64ch;
+  padding-left: 1.25em;
+}
+
+.legal-section li {
+  margin-bottom: var(--s-2);
+}
+
 /* ---------- Loading & errors ---------- */
 .spinner {
   display: inline-flex;

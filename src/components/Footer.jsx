@@ -33,6 +33,10 @@ export default function Footer() {
           © {year} {get("org.name")}. {get("org.status")}, EIN {get("org.ein")}.
         </span>
         <T path="org.legal" as="span" />
+        <nav className="footer-legal-links" aria-label="Legal">
+          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/terms">Terms and Conditions</Link>
+        </nav>
       </div>
     </footer>
   );
