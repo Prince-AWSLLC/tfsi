@@ -22,7 +22,7 @@ export default function PeopleDirectory() {
       const matchesTag = tag === "All" || person.tags.includes(tag);
       if (!matchesTag) return false;
       if (!needle) return true;
-      const haystack = `${person.name} ${person.affiliation} ${person.summary}`.toLowerCase();
+      const haystack = `${person.name} ${person.affiliation ?? ""} ${person.summary ?? ""}`.toLowerCase();
       return haystack.includes(needle);
     });
   }, [people, deferredQuery, tag]);
@@ -76,10 +76,12 @@ export default function PeopleDirectory() {
                     <PersonMark person={person} />
                     <div>
                       <h3>{person.name}</h3>
-                      <span className="directory-affiliation">{person.affiliation}</span>
+                      {person.affiliation ? (
+                        <span className="directory-affiliation">{person.affiliation}</span>
+                      ) : null}
                     </div>
                   </div>
-                  <p className="directory-summary">{person.summary}</p>
+                  {person.summary ? <p className="directory-summary">{person.summary}</p> : null}
                   <div className="directory-meta">
                     <span className="directory-tags">{person.tags.join(" · ")}</span>
                     {hasStory ? (

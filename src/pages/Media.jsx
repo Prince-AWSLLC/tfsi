@@ -104,7 +104,9 @@ export default function Media() {
                 >
                   <PersonMark person={person} size="lg" />
                   <span className="guest-name">{person.name}</span>
-                  <span className="guest-affiliation">{person.affiliation}</span>
+                  {person.affiliation ? (
+                    <span className="guest-affiliation">{person.affiliation}</span>
+                  ) : null}
                 </Link>
               </li>
             ))}
