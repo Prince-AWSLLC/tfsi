@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { CtaLink, Img, Paragraphs, T } from "../components/Bind";
 import Hero from "../components/Hero";
 import JseMark from "../components/JseMark";
@@ -8,6 +9,7 @@ export default function Home() {
   const { get } = useSite();
   const facts = get("home.facts") ?? [];
   const work = get("home.work.items") ?? [];
+  const [missionOpen, setMissionOpen] = useState(false);
 
   return (
     <>
@@ -33,6 +35,20 @@ export default function Home() {
             <SectionHead path="home.mission" lead={false} />
             <div className="prose">
               <Paragraphs path="home.mission.body" />
+              <div id="mission-more" hidden={!missionOpen}>
+                <Paragraphs path="home.mission.more" />
+              </div>
+              <p>
+                <button
+                  type="button"
+                  className="text-btn"
+                  aria-expanded={missionOpen}
+                  aria-controls="mission-more"
+                  onClick={() => setMissionOpen(!missionOpen)}
+                >
+                  {missionOpen ? "Show less" : "Read more"}
+                </button>
+              </p>
             </div>
           </div>
           <figure className="frame frame-tall" data-reveal>
