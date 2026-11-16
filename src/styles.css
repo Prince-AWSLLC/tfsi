@@ -3,6 +3,8 @@
   --c-primary: #0d233a;
   --c-primary-deep: #081827;
   --c-primary-soft: #16314e;
+  --c-tile: #24476e;
+  --c-tile-light: #dce7f3;
   --c-accent: #7a1428;
   --c-accent-deep: #5c0f1e;
   --c-accent-soft: #f5e8eb;
@@ -1611,20 +1613,15 @@ address {
   font-size: clamp(2rem, 1.2rem + 2.6vw, 3rem);
 }
 
-.mark-0 {
-  background: var(--c-primary);
+.mark-tone {
+  background: var(--c-tile);
   color: var(--c-on-dark);
 }
 
-.mark-1 {
-  background: var(--c-surface);
+.guest-grid li:nth-child(4n + 2) .mark-tone,
+.guest-grid li:nth-child(4n + 3) .mark-tone {
+  background: var(--c-tile-light);
   color: var(--c-primary);
-  box-shadow: inset 0 0 0 1.5px var(--c-primary);
-}
-
-.mark-2 {
-  background: var(--c-accent-soft);
-  color: var(--c-primary-deep);
 }
 
 .mark-photo {
@@ -2375,6 +2372,16 @@ address {
 
   .guest-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guest-grid li:nth-child(n) .mark-tone {
+    background: var(--c-tile);
+    color: var(--c-on-dark);
+  }
+
+  .guest-grid li:nth-child(even) .mark-tone {
+    background: var(--c-tile-light);
+    color: var(--c-primary);
   }
 
   .leader-grid {
