@@ -2,7 +2,7 @@ import { CtaLink, Img, Paragraphs, T } from "../components/Bind";
 import Faq from "../components/Faq";
 import Hero from "../components/Hero";
 import JseMark from "../components/JseMark";
-import PeopleDirectory from "../components/PeopleDirectory";
+import GuestGrid, { previewPeople } from "../components/GuestGrid";
 import SectionHead from "../components/SectionHead";
 import { useSite } from "../data/siteData";
 
@@ -11,6 +11,7 @@ export default function About() {
   const leaders = get("about.leadership.people") ?? [];
   const steps = get("about.jse.steps") ?? [];
   const interests = get("about.jse.interests") ?? [];
+  const people = get("about.people.list") ?? [];
 
   return (
     <>
@@ -56,8 +57,11 @@ export default function About() {
 
       <section className="section section-rule" id="people">
         <div className="wrap">
-          <SectionHead path="about.people" />
-          <PeopleDirectory />
+          <SectionHead path="media.people" />
+          <GuestGrid people={previewPeople(people)} />
+          <div className="section-actions" data-reveal>
+            <CtaLink path="media.people.cta" className="btn btn-primary" />
+          </div>
         </div>
       </section>
 

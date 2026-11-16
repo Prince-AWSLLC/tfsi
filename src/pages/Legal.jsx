@@ -1,4 +1,5 @@
 import { T } from "../components/Bind";
+import Typed from "../components/Typed";
 import { useSite } from "../data/siteData";
 
 export default function Legal({ path }) {
@@ -9,7 +10,7 @@ export default function Legal({ path }) {
     <section className="section legal">
       <div className="wrap narrow">
         <T path={`${path}.kicker`} as="p" className="kicker" />
-        <T path={`${path}.title`} as="h1" />
+        <Typed path={`${path}.title`} />
         <T path={`${path}.updated`} as="p" className="legal-updated" />
         <div className="prose" data-json={`${path}.sections`}>
           {sections.map((section) => (

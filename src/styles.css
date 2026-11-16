@@ -811,13 +811,14 @@ address {
   margin-bottom: var(--s-5);
 }
 
-.hero-word {
+.typed-word {
   display: inline-block;
+  white-space: nowrap;
 }
 
-.page-enter .hero-word {
-  animation: rise 0.9s var(--ease) both;
-  animation-delay: calc(260ms + var(--i, 0) * 45ms);
+.page-enter .typed-char {
+  animation: type-in 1ms steps(1, end) both;
+  animation-delay: calc(140ms + var(--c, 0) * 16ms);
 }
 
 .page-enter .hero .kicker,
@@ -1588,35 +1589,6 @@ address {
   margin-bottom: var(--s-3);
 }
 
-.directory-list {
-  border-top: 2px solid var(--c-primary);
-}
-
-.directory-row {
-  border-bottom: 1px solid var(--c-line);
-  padding: var(--s-5) 0;
-  transition: background-color var(--t-fast) var(--ease);
-  animation: rise 0.6s var(--ease) both;
-  animation-delay: calc(var(--i, 0) * 40ms);
-}
-
-.directory-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--s-2) var(--s-6);
-}
-
-.directory-name {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--s-3);
-}
-
-.directory-name h3 {
-  font-size: 1.2rem;
-  margin-bottom: 2px;
-}
-
 /* ---------- Person marks ---------- */
 .mark {
   position: relative;
@@ -1631,12 +1603,6 @@ address {
   letter-spacing: 0.02em;
   line-height: 1;
   user-select: none;
-}
-
-.mark-sm {
-  width: 52px;
-  height: 52px;
-  font-size: 1.15rem;
 }
 
 .mark-lg {
@@ -1739,41 +1705,72 @@ address {
   border-radius: var(--r-sm);
 }
 
-.directory-affiliation {
-  display: block;
-  font-size: var(--fs-xs);
+/* ---------- Person page ---------- */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  min-height: 44px;
+  margin-bottom: var(--s-5);
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: var(--fs-sm);
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  color: var(--c-primary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color var(--t-fast) var(--ease);
+}
+
+.back-link:hover {
   color: var(--c-accent-deep);
 }
 
-.directory-summary {
-  color: var(--c-ink);
-  font-size: var(--fs-sm);
-}
-
-.directory-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--s-2) var(--s-4);
-  align-items: center;
-  font-size: var(--fs-xs);
-  color: var(--c-muted);
-}
-
-.directory-tags {
-  letter-spacing: 0.04em;
-}
-
-.directory-story {
-  margin-top: var(--s-4);
-  padding: var(--s-4) var(--s-5);
-  background: var(--c-surface);
-  border-left: 3px solid var(--c-accent);
+.back-link:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 4px;
   border-radius: var(--r-sm);
-  font-size: var(--fs-sm);
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-5);
+}
+
+.person-mark {
+  width: min(220px, 60%);
+}
+
+.person-name {
+  margin-bottom: var(--s-3);
+}
+
+.person-tags {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
   color: var(--c-muted);
+  margin-bottom: var(--s-4);
+}
+
+.person-summary {
+  margin-bottom: var(--s-5);
+}
+
+.person-story p + p {
+  margin-top: var(--s-4);
+}
+
+.person-empty {
+  color: var(--c-muted);
+}
+
+.person-website {
+  margin-top: var(--s-5);
+  font-weight: 600;
 }
 
 /* ---------- Media page ---------- */
@@ -2155,6 +2152,15 @@ address {
   }
 }
 
+@keyframes type-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes rise {
   from {
     opacity: 0;
@@ -2291,12 +2297,11 @@ address {
 
   .page-enter,
   .page-enter .hero-media img,
-  .page-enter .hero-word,
+  .page-enter .typed-char,
   .page-enter .hero .kicker,
   .page-enter .hero .lead,
   .page-enter .hero-actions,
   .page-enter .hero-copy::before,
-  .directory-row,
   .route-veil,
   .route-veil img,
   .route-veil-rule,
@@ -2382,23 +2387,18 @@ address {
     align-items: start;
   }
 
-  .directory-main {
-    grid-template-columns: 280px 1fr;
-    grid-template-areas:
-      "name summary"
-      "name meta";
+  .person {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: var(--s-7);
+    align-items: start;
   }
 
-  .directory-name {
-    grid-area: name;
+  .person-mark {
+    width: 100%;
   }
 
-  .directory-summary {
-    grid-area: summary;
-  }
-
-  .directory-meta {
-    grid-area: meta;
+  .person-body {
+    max-width: 68ch;
   }
 }
 

@@ -152,7 +152,7 @@
     "people": {
       "kicker": "Guests",
       "title": "People we have hosted",
-      "lead": "Israeli pioneers, Texas friends, and the people who introduced them. Search the list or open a name for the longer account.",
+      "lead": "Israeli pioneers, Texas friends, and the people who introduced them. Search by name or organization, or open a name for the longer account.",
       "tags": ["All", "Israel", "Heartland", "Texas / U.S.", "Holocaust survivors"],
       "list": [
         {
@@ -1790,7 +1790,7 @@
       "kicker": "Guests",
       "title": "People we have hosted",
       "lead": "Speakers, pioneers, and friends who have stayed at the house or spoken for TFSI. Open a name for the longer account.",
-      "cta": { "label": "Open the full directory", "to": "/about#people" }
+      "cta": { "label": "Open the full directory", "to": "/people" }
     },
     "gallery": {
       "kicker": "Photographs",

@@ -1,25 +1,5 @@
-import { Fragment } from "react";
 import { Img, T } from "./Bind";
-import { useSite } from "../data/siteData";
-
-function Headline({ path }) {
-  const { get } = useSite();
-  const text = get(path);
-  if (typeof text !== "string") return null;
-  const words = text.split(" ");
-  return (
-    <h1 className="hero-title" data-json={path}>
-      {words.map((word, index) => (
-        <Fragment key={`${word}-${index}`}>
-          <span className="hero-word" style={{ "--i": index }}>
-            {word}
-          </span>
-          {index < words.length - 1 ? " " : null}
-        </Fragment>
-      ))}
-    </h1>
-  );
-}
+import Typed from "./Typed";
 
 export default function Hero({ path, children, compact = false }) {
   return (
@@ -27,7 +7,7 @@ export default function Hero({ path, children, compact = false }) {
       <div className="hero-copy">
         <div className="hero-copy-inner">
           <T path={`${path}.kicker`} as="p" className="kicker" />
-          <Headline path={`${path}.headline`} />
+          <Typed path={`${path}.headline`} className="hero-title" />
           <T path={`${path}.lead`} as="p" className="lead" />
           {children ? <div className="hero-actions">{children}</div> : null}
         </div>

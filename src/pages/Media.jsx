@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { CtaLink } from "../components/Bind";
+import GuestGrid, { previewPeople } from "../components/GuestGrid";
 import Hero from "../components/Hero";
-import PersonMark from "../components/PersonMark";
 import SectionHead from "../components/SectionHead";
 import { useSite } from "../data/siteData";
 
@@ -94,23 +94,7 @@ export default function Media() {
       <section className="section" id="people">
         <div className="wrap">
           <SectionHead path="media.people" />
-          <ul className="guest-grid" data-json="about.people.list">
-            {people.map((person, index) => (
-              <li key={person.slug} data-reveal style={{ "--i": index % 5 }}>
-                <Link
-                  className="guest"
-                  to={`/about?guest=${person.slug}#people`}
-                  aria-label={`${person.name} in the guest directory`}
-                >
-                  <PersonMark person={person} size="lg" />
-                  <span className="guest-name">{person.name}</span>
-                  {person.affiliation ? (
-                    <span className="guest-affiliation">{person.affiliation}</span>
-                  ) : null}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <GuestGrid people={previewPeople(people)} />
           <div className="section-actions" data-reveal>
             <CtaLink path="media.people.cta" className="btn btn-primary" />
           </div>

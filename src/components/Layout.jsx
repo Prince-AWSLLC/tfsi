@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigationType } from "react-router-dom";
 import { useSite } from "../data/siteData";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -10,6 +10,7 @@ const TITLES = {
   "/about": "About | Texans for a Safe Israel",
   "/donate": "Donate | Texans for a Safe Israel",
   "/media": "Media | Texans for a Safe Israel",
+  "/people": "People we have hosted | Texans for a Safe Israel",
   "/contact": "Contact | Texans for a Safe Israel",
   "/privacy": "Privacy Policy | Texans for a Safe Israel",
   "/terms": "Terms and Conditions | Texans for a Safe Israel",
@@ -63,15 +64,51 @@ function useRouteTransition(ready) {
   return { shown, veil };
 }
 
-function useRouteEffects(shown, ready) {
-  const { pathname, hash } = shown;
+function titleFor(pathname, get) {
+  if (TITLES[pathname]) return TITLES[pathname];
+  const slug = pathname.match(/^\/people\/([^/]+)$/)?.[1];
+  const person = slug ? (get("about.people.list") ?? []).find((item) => item.slug === slug) : null;
+  return person ? `${person.name} | Texans for a Safe Israel` : "Texans for a Safe Israel";
+}
+
+function useRouteEffects(shown, ready, get) {
+  const { pathname, hash, key } = shown;
+  const navigationType = useNavigationType();
+  const positions = useRef(new Map());
+  const current = useRef({ key, pathname });
 
   useEffect(() => {
-    document.title = TITLES[pathname] ?? "Texans for a Safe Israel";
-  }, [pathname]);
+    window.history.scrollRestoration = "manual";
+    let frame = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => positions.current.set(current.current.key, window.scrollY));
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
+
+  useLayoutEffect(() => {
+    const previous = current.current;
+    if (previous.pathname === pathname && !positions.current.has(key)) {
+      positions.current.set(key, window.scrollY);
+    }
+    current.current = { key, pathname };
+  }, [key, pathname]);
+
+  useEffect(() => {
+    document.title = titleFor(pathname, get);
+  }, [pathname, get]);
 
   useLayoutEffect(() => {
     if (!ready) return;
+    if (navigationType === "POP" && positions.current.has(key)) {
+      window.scrollTo({ top: positions.current.get(key), behavior: "instant" });
+      return;
+    }
     if (hash) {
       const target = document.getElementById(hash.slice(1));
       if (target) {
@@ -79,7 +116,7 @@ function useRouteEffects(shown, ready) {
         return;
       }
     }
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "instant" });
   }, [pathname, hash, ready]);
 }
 
@@ -118,7 +155,7 @@ export default function Layout({ children }) {
   const { ready, error, retry, get } = useSite();
   const { shown, veil } = useRouteTransition(ready);
 
-  useRouteEffects(shown, ready);
+  useRouteEffects(shown, ready, get);
   useReveal(shown, ready);
 
   useEffect(() => {
