@@ -1624,18 +1624,6 @@ address {
   color: var(--c-primary);
 }
 
-.mark-photo {
-  background: var(--c-primary-soft);
-}
-
-.mark-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 20%;
-  transition: transform 1s var(--ease);
-}
-
 .mark-lg::after {
   content: "";
   position: absolute;
@@ -1690,10 +1678,6 @@ address {
 .guest:hover .mark-lg::after,
 .guest:focus-visible .mark-lg::after {
   transform: scaleX(1);
-}
-
-.guest:hover .mark-photo img {
-  transform: scale(1.04);
 }
 
 .guest:focus-visible {
@@ -2337,7 +2321,6 @@ address {
   .field textarea,
   .field label,
   .mark-lg::after,
-  .mark-photo img,
   .guest-name,
   .site-header {
     transition-duration: 0.01ms;

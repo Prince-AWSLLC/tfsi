@@ -20,7 +20,5 @@ export default function GuestGrid({ people, reveal = true }) {
 }
 
 export function previewPeople(people, count = 10) {
-  const withPhoto = people.filter((person) => person.photo);
-  const rest = people.filter((person) => !person.photo);
-  return [...withPhoto, ...rest].slice(0, count);
+  return people.slice(0, count);
 }

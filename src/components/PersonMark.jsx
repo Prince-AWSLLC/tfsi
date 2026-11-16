@@ -12,19 +12,6 @@ export function initialsFor(name) {
 
 export default function PersonMark({ person, size = "sm" }) {
   const className = `mark mark-${size}`;
-  if (person.photo) {
-    return (
-      <span className={`${className} mark-photo`}>
-        <img
-          src={person.photo}
-          alt={person.photoAlt ?? ""}
-          loading="lazy"
-          decoding="async"
-          style={person.photoPosition ? { objectPosition: person.photoPosition } : undefined}
-        />
-      </span>
-    );
-  }
   return (
     <span className={`${className} mark-tone`} aria-hidden="true">
       <span className="mark-initials">{initialsFor(person.name)}</span>
