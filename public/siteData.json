@@ -159,7 +159,9 @@
           "slug": "rabbi-shlomo-abrams",
           "name": "Rabbi Shlomo Abrams",
           "affiliation": "Dallas Area Torah Association",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A Dallas rabbi who teaches Torah, hosts events, and leads tours to Israel with his wife.",
           "story": [
             "He is one of the sweetest young rabbis you will ever meet. He is associated with the Dallas Area Torah Association and is a pulpit rabbi with his own shul. When I am honored to talk to him, I always learn a little Torah that applies to the day.",
@@ -171,7 +173,9 @@
           "slug": "rabbi-yosef-abrams",
           "name": "Rabbi Yosef Abrams",
           "affiliation": "Dallas",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Father of Rabbi Shlomo Abrams. Torah lessons on why Jews and Christians must close the gap between communities.",
           "story": [
             "Once, Rabbi Shlomo Abrams called me and asked if he could bring his twins (he has two sets) to the Lake for an overnight stay. We were honored to have them. He told me he was bringing me a present... it was his dad, and he was true to his word. Rabbi Yosef was a gift from heaven to me. As the kids played, we talked and talked, and I learned so much.",
@@ -184,7 +188,9 @@
           "slug": "rabbi-leo-dee",
           "name": "Rabbi Leo Dee",
           "affiliation": "Author, The Seven Facets of Healing",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Hosted in April 2026. His wife Lucy and daughters Maia and Rina were murdered by Hamas terrorists in April 2023. Author of The Seven Facets of Healing.",
           "story": [
             "It was a great honor to host Rabbi Leo Dee in our home this past April (2026). We learned that he had worked as a financial analyst and investor in England before making aliyah to Israel with his family in 2014 and pursuing his rabbinical studies.",
@@ -197,7 +203,9 @@
           "slug": "rabbi-chaim-eisen",
           "name": "Rabbi Chaim Eisen",
           "affiliation": "Yeshivath Sharashim – Zion Bible Studies",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Founder and dean of Yeshivath Sharashim – Zion Bible Studies. A speaker for four decades and a longtime mentor in Jewish–Christian friendship.",
           "story": [
             "Rabbi Chaim Eisen is the founder and dean of Yeshivath Sharashim – Zion Bible Studies. An acclaimed speaker, he has been stimulating audiences throughout Israel, North America, and Europe for four decades. Over the past two decades, he has become increasingly engaged in building bridges between Jewish and Christian believers.",
@@ -210,7 +218,10 @@
           "slug": "rabbi-yishai-fleisher",
           "name": "Rabbi Yishai Fleisher",
           "affiliation": "Jewish Community of Hebron",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "International spokesperson for the Jewish Community of Hebron, commentator, and podcast host. He and Malkah held their wedding in Hebron during the Second Intifada.",
           "story": [
             "Many years ago, I regularly listened to Israel National News, Arutz Sheva, where I was introduced to Religious Zionist personalities. At the time, I might not have known how to identify myself with the term Religious Zionist, but I certainly identified with their message and the content they shared. One young man I especially enjoyed listening to was Rabbi Yishai Fleisher.",
@@ -223,13 +234,29 @@
         {
           "slug": "rabbi-shaya-fox",
           "name": "Rabbi Shaya Fox",
-          "tags": []
+          "affiliation": "",
+          "tags": [],
+          "summary": ""
+        },
+        {
+          "slug": "rabbi-yerachmiel-fried",
+          "name": "Rabbi Yerachmiel Fried",
+          "affiliation": "Dallas Area Torah Association",
+          "tags": [
+            "Texas / U.S."
+          ],
+          "summary": "Torah scholar whose friendship with Ann grew through Tova Feldman, DATA events, and restoration work at the DATA Center.",
+          "story": [
+            "The story of how an internationally acknowledged Torah scholar became a friend of our family is a long one, and it all began with our friend Tova Feldman, a Holocaust survivor. I asked Tova to accompany me to an event where Glenn Beck was the speaker, a fundraiser for the Dallas Area Torah Association (DATA). Somehow, Julie Sironi, Tova, and I ended up seated at the head table with Glenn Beck, his wife, and his CFO. This is one of those stories you just can't make up! This was nearly a decade ago. Our company and Eagle Mountain Church later helped with some restoration work at the DATA Center, and over the years, our paths continued to cross. A friendship gradually developed that has become very special to us."
+          ]
         },
         {
           "slug": "rabbi-yehuda-glick",
           "name": "Rabbi Yehuda Glick",
           "affiliation": "Amitsim / Temple Mount",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Religious Zionist leader and former Knesset member. Stayed in the home three times. Amitsim, headed with Hadass Glick, works with young widows and orphans.",
           "story": [
             "One of the brightest luminaries in the Religious Zionist movement. As a Knesset Member, he came to speak to our AFSI group one night. As others crowded around to get a picture, I was too intimidated by his presence to approach him. As life has turned out, he has stayed with us three times, and we have had our own personal discussions at the dinner table.",
@@ -243,7 +270,9 @@
           "slug": "rabbi-rami-goldberg",
           "name": "Rabbi Rami Goldberg",
           "affiliation": "Israel365",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Director of Strategic Relationships at Israel365 and host of the Biblical Money podcast. Has spoken at Generations Church.",
           "story": [
             "Rabbi Rami Goldberg has been a guest in our home and a speaker at Generations Church. He serves as Director of Strategic Relationships at Israel365 and hosts the Biblical Money podcast. We hosted him for a luncheon several years ago, and I continue to stay in touch with him regularly through WhatsApp.",
@@ -252,10 +281,13 @@
           ]
         },
         {
-          "slug": "rabbi-moshe-leah-goldsmith",
+          "slug": "rabbi-moshe-and-leah-goldsmith",
           "name": "Rabbi Moshe and Leah Goldsmith",
           "affiliation": "Itamar",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Close friends. Rabbi Goldsmith, then mayor of Itamar, guided a visit to the Fogel family home. Subsequent visits showed the daily reality of those communities.",
           "story": [
             "Very close family friends! The terrible massacre of the Fogel Family in Itamar prompted me to call Americans for a Safe Israel and ask, “are you going to Itamar?” I had no idea what was waiting for me there, but, for sure, it was one of the greatest personal Divine Appointments.",
@@ -268,7 +300,9 @@
           "slug": "rabbi-richard-green",
           "name": "Rabbi Richard Green",
           "affiliation": "The Clarion Project",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Co-founder of The Clarion Project, focused on extremist threats.",
           "story": [
             "Rabbi Richard Green is the co-founder of The Clarion Project, an independent nonprofit dedicated to helping the public understand, recognize, and reduce the growing threat of violent extremism both online and in our communities.",
@@ -280,7 +314,9 @@
           "slug": "rabbi-eitan-kupietzky",
           "name": "Rabbi Eitan Kupietzky",
           "affiliation": "The Gimmel Foundation",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Director of The Gimmel Foundation, which serves children, families, and new immigrants in disadvantaged Israeli communities. Has visited The Blessing twice.",
           "story": [
             "Rabbi Eitan Kupietzky is the Director of The Gimmel Foundation, which serves disadvantaged communities in Israel. We were introduced through his brother, Rabbi Chanan Kupietzky, who is connected with the Temple Institute and the Red Heifers. I remember asking Rabbi Eitan if he had ever spoken to a Christian group. His answer was no, but at his brother’s encouragement, he was willing to step into unfamiliar territory and join us at The Blessing. I am so glad he did! We have now had the joy of welcoming him twice, and each visit has been a special opportunity to get to know him better and hear about the meaningful work to which he has devoted himself. There is something especially rewarding about watching a new relationship grow when people are willing to step beyond what is familiar and discover how much they can learn from one another.",
@@ -293,7 +329,9 @@
           "slug": "rabbi-yitzchak-mamo",
           "name": "Rabbi Yitzchak Mamo",
           "affiliation": "The Third Temple and the Red Heifers",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Connected to the work toward the Third Temple and the Red Heifers. A friend for nearly ten years and an overnight guest at The Blessing.",
           "story": [
             "I first met Rabbi Mamo at a ranch near Granbury, Texas, close to ten years ago. Over time, I came to know him better through his good friend, Byron Stinson, and our connection has continued to grow. A few years ago, Rabbi Mamo spent the night with us at The Blessing, and as I have learned over the years, sharing our home has a special way of cementing friendships and trust.",
@@ -302,15 +340,31 @@
           ]
         },
         {
+          "slug": "rabbi-dov-mandel",
+          "name": "Rabbi Dov Mandel",
+          "affiliation": "Chabad-Lubavitch, Fort Worth",
+          "tags": [
+            "Texas / U.S."
+          ],
+          "summary": "Rabbi Dov and his wife, Chana, have served Fort Worth’s Chabad-Lubavitch community for nearly 25 years.",
+          "story": [
+            "For nearly 25 years, Rabbi Dov and his wife, Chana, have faithfully represented the Chabad-Lubavitch community in Fort Worth. I first heard about them approximately 15 years ago, and I felt that God had placed it on my heart to make an appointment with Rabbi Dov to explore how we might be able to help. At the time, he was operating a small Hebrew school near my former home, and that initial meeting became part of our ongoing connection. About 11 years ago, I was honored by B’nai Zion, and I was especially blessed that Rabbi Dov and Chana joined us at our table for the occasion. It was a joy to share that special moment with them. Although it has been quite some time since Rabbi Dov last visited our home, I hope that will change in the future. I would be particularly honored to welcome him back to teach a Torah lesson, giving us an opportunity to learn from his wisdom and deepen our understanding of the richness of Jewish Scripture."
+          ]
+        },
+        {
           "slug": "rabbi-eli-mischel",
           "name": "Rabbi Eli Mischel",
-          "tags": []
+          "affiliation": "",
+          "tags": [],
+          "summary": ""
         },
         {
           "slug": "rabbi-tuly-weisz",
           "name": "Rabbi Tuly Weisz",
           "affiliation": "Israel365",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Founder of Israel365, author of Universal Zionism, and publisher of The Israel Bible. TFSI supports Israel365 monthly.",
           "story": [
             "Rabbi Tuly Weisz is the founder of Israel365, author of Universal Zionism, and publisher of the best-selling The Israel Bible, which highlights the special relationship between the Land of Israel and the People of Israel.",
@@ -321,10 +375,12 @@
           "website": "https://israel365.com"
         },
         {
-          "slug": "pastor-raphael-cruz",
+          "slug": "pastor-rafael-cruz",
           "name": "Pastor Rafael Cruz",
           "affiliation": "Texas",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A survivor of oppression in Cuba and a close family friend. Father of Senator Ted Cruz.",
           "story": [
             "He has become family to us. We actually met him at a Shabbat dinner of Diane and Jerry Benjamin’s. Since then, he has been our guest when he preaches in our area. Words cannot express his great personal blessing to our family, our children, grandchildren, and great-grandchildren.",
@@ -337,7 +393,9 @@
           "slug": "pastor-juana-earley",
           "name": "Pastor Juana Earley",
           "affiliation": "The Glory Church",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Pastor of The Glory Church, 65 miles from Granbury, which hosts many of the same Israeli guests who visit The Blessing. A retired surgical nurse.",
           "story": [
             "I have known Juana for many years. A retired surgical nurse by profession, she has long been active in evangelism to the Nations and recently returned from a trip to the Yucatán. Juana was also deeply involved in supporting Israel and the Jewish people through the Battalion of Deborah (see Keith and Jodi Anderson).",
@@ -350,7 +408,9 @@
           "slug": "pastor-alan-latta",
           "name": "Pastor Alan Latta",
           "affiliation": "Generations Church, Granbury",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Pastor of Generations Church in Granbury. Has welcomed Israelis to speak at his church.",
           "story": [
             "Pastor Alan Latta is one of my favorite pastors, firmly grounded in the Word of God and a dear friend to us and our Jewish guests. Pastor Alan has joined us on our journey at The Blessing, our family home, where we welcome Israelis to share their stories. Sometimes I feel as though our home has become a modern-day version of Longfellow’s Tales of a Wayside Inn, a place where people gather and stories bring us closer together.",
@@ -359,15 +419,12 @@
           ]
         },
         {
-          "slug": "pastor-michael-sadovsky",
-          "name": "Pastor Michael Sadovsky",
-          "tags": []
-        },
-        {
           "slug": "pastor-john-turner",
           "name": "Pastor John Turner",
           "affiliation": "Father’s House Foundation",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Leads the Father’s House Foundation. A mentor when TFSI first began organizing trips to Israel.",
           "story": [
             "Pastor John Turner is a wonderful man who has been a blessing to our community and to Texans For A Safe Israel. He has a deep and abiding love for Israel and the Jewish people, a passion that has been evident in his support and encouragement over the years.",
@@ -377,10 +434,25 @@
           "website": "https://fathershousefoundation.com"
         },
         {
-          "slug": "ohad-tal",
+          "slug": "pastor-joey-white",
+          "name": "Pastor Joey White",
+          "affiliation": "StoneWater Church, Granbury",
+          "tags": [
+            "Texas / U.S."
+          ],
+          "summary": "Senior co-pastor of StoneWater Church who visited Israel shortly after October 7, 2023, offering a “ministry of presence.”",
+          "story": [
+            "It is a special blessing to have Joey White right here in our own community of Granbury, Texas. Joey serves as senior co-pastor of StoneWater Church and is also involved in equipping others through a Bible school that people can connect with both in person and online. (He is also Founder and Leader of Stonewater,USA) His commitment to teaching and sharing God’s Word is another reflection of his heart for ministry. He is also one of those rare pastors who has a genuine heart for God’s Chosen People and His Land. In a world where that kind of understanding and commitment is not always easy to find, his love for Israel is something I deeply appreciate. Pastor Joey has led multiple groups to Israel, but one of the nicest things anyone has ever said to me was when he told me he wanted to join me on my next trip to meet the pioneers, heroes, and heroines of Judea and Samaria. His interest went beyond seeing the sights; he wanted to meet the people who live there and hear their stories.",
+            "He didn’t wait for me to make that next trip! Just a couple of weeks after October 7, 2023, Pastor Joey and four other men from StoneWater Church headed to Israel, with a special focus on Judea and Samaria. True to his word, he made a point of visiting our TFSI friends. When Jewish people asked why they had come to Israel during such a horrific time in their lives, Joey’s answer was both simple and profound: When family is in trouble, you go to visit them. He described their mission as “a ministry of presence.” Those words capture the heart of what it means to stand with the Jewish people—not merely through words of support, but by showing up when it matters most. Joey didn’t just express an interest in God’s Chosen People and His Land, he put his convictions into action, even in a time of great uncertainty. We are so thankful to have a pastor in our own community who not only teaches God’s Word, but also lives out his convictions by building genuine relationships with the Jewish people and standing alongside the pioneers, heroes, and heroines of Judea and Samaria."
+          ]
+        },
+        {
+          "slug": "knesset-member-ohad-tal",
           "name": "Knesset Member Ohad Tal",
           "affiliation": "Religious Zionist Party",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Member of the Knesset for the Religious Zionist Party. Spoke at The Blessing in September 2025.",
           "story": [
             "Knesset Member Ohad Tal was with us at The Blessing in September 2025. He is an Israeli politician and a Member of the Knesset representing the Religious Zionist Party. Ohad believes that peace can only be achieved by applying Israeli sovereignty over Judea and Samaria and Gaza. You can check with virtually every guest we have welcomed into our home from Judea and Samaria, and they will tell you the same.",
@@ -393,7 +465,9 @@
           "slug": "joshua-aaron",
           "name": "Joshua Aaron",
           "affiliation": "Musician",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "An impromptu concert in Granbury arranged in a single day. Nearly 400 people attended.",
           "story": [
             "I don’t think he will ever forget Granbury, Texas! It was very early on a Monday morning when Lori Hinze excitedly called me to say that he was in the U.S. and she thought we should arrange a concert at our home. I barely knew who he was at the time, although I soon discovered that he was VERY popular! I had briefly seen a video of him performing in Jerusalem before a very large audience, but I had no idea what was about to unfold.",
@@ -403,15 +477,36 @@
           ]
         },
         {
-          "slug": "ari-abromowitz",
-          "name": "Ari Abromowitz",
-          "tags": []
+          "slug": "rabbi-ari-abromowitz",
+          "name": "Rabbi Ari Abromowitz",
+          "affiliation": "Arugot Farm / Land of Israel Fellowship",
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
+          "summary": "Partner in Arugot Farm and the Land of Israel Fellowship, with teaching initiatives including The Prophets of Israel and The Judean Diet.",
+          "story": [
+            "Twenty-five years ago, I went to Israel. It was just a few weeks after 9/11, and we were the only tour group in all of Israel. What I saw changed my life. We were in Samaria, and I saw Jewish people who absolutely looked as though they had stepped right off the pages of the Bible. For ten years, I searched for them. Then, one day, I came across a television program called Tuesday Night Live in Jerusalem, featuring Rabbi Ari Abramowitz and Rabbi Jeremy Gimpel, both active IDF soldiers. I never missed a show and tried to get others to watch, with little success! But what these two were saying burned in my heart. Go to Youtube and search Tuesday Night Live in Jerusalem and you can watch the very first show...before dreams became reality.",
+            "The first time I actually saw them in person was in July 2011, in the Congressional dining room in Washington, D.C. They wouldn't remember me, but to me, it was like meeting two larger-than-life heroes. Our paths would soon cross again as I began traveling with Americans for a Safe Israel, a Zionist Jewish organization. I believe it was around 2015 or 2016 that we began visiting a remote location overlooking the valley and caves where David and his mighty men camped. At first, there were just words and a vision. Then came the foundations. Year after year, I watched as the synagogue was built. Those dreams and words gradually turned into stone, homes, vineyards, pools, sheep, goats, horses, and a real working farm — Arugot Farm. https://www.youtube.com/watch?v=V-RcHqdEiuA This is a very short 3 min. video by CBN.",
+            "There is so much to say about Ari that I can't begin to do it justice here. What he and Jeremy have accomplished is, in my eyes, only by the Hand of G-d. TFSI was there on the ground floor of The Land of Israel Fellowship, a global online community with live virtual gatherings connecting more than 1,000 member families across over 40 countries with Israel. TFSI proudly supports this work monthly.",
+            "https://thelandofisrael.com/fellowship/",
+            "One of their newest ventures is The Prophets of Israel. Imagine studying every prophet of the Hebrew Bible through a daily podcast, each 15 minutes or less! What a wonderful way to bring the words of the prophets into our everyday lives!",
+            "https://thelandofisrael.com/prophets-of-israel/",
+            "Ari also has his own weekly podcast, The Judean Diet. Because of his personal struggles with weight, he has been able to help many others on their own food and wellness journeys. His honesty and willingness to share his experience have made this a very personal ministry.",
+            "https://thelandofisrael.com/judeandiet/",
+            "On a personal note, Ari and Jeremy were with us together last June, 2025. I persuaded Ari to stay an extra day. Unfortunately, the war began, and he was unable to get home to his family. How he eventually made it home is a story in itself — and one well worth hearing. Here is a little seven-minute video telling that remarkable story: https://www.youtube.com/watch?v=yN_0NaAxWjQ&t=20s",
+            "I can't finish without highlighting another good friend, Ryan Lambert, who interviewed Ari in a wonderful conversation titled Torah from Zion to the Nations: A Conversation with Ari Abramowitz.",
+            "https://www.youtube.com/watch?v=4Y0Y6zcpYdg&t=141s",
+            "And one more thing: Ari is a Texan, and Texas loves Ari VERY MUCH!"
+          ]
         },
         {
-          "slug": "keith-jodi-anderson",
+          "slug": "keith-and-jodi-anderson",
           "name": "Keith and Jodi Anderson",
           "affiliation": "Christian–Jewish relations",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Pioneers in Christian–Jewish relations. There would be no Texans for a Safe Israel without them.",
           "story": [
             "All I can say is there would be no Texans for a Safe Israel if not for this amazing pioneer couple dedicated to bettering Christian-Jewish relations.",
@@ -421,10 +516,26 @@
           ]
         },
         {
+          "slug": "dr-parthenia-antoine",
+          "name": "Dr. Parthenia Antoine",
+          "affiliation": "Aliyah / TFSI connections",
+          "tags": [
+            "Texas / U.S.",
+            "Israel"
+          ],
+          "summary": "Longtime friend and supporter of TFSI whose decades of work with Israel include helping more than 160 Russian Jews make Aliyah.",
+          "story": [
+            "Dr. Parthenia Antoine is a longtime friend. I originally met her through our mutual friend, Holocaust survivor Tova Feldman. When Tova told me that Parthenia had stayed nights with her husband, Avram, during his final days battling cancer, simply so Tova could get a little sleep, my heart was forever hers. That told me everything I needed to know about the kind of person Parthenia is. For more than 30 years, Parthenia has been personally involved with Israel and the work of Aliyah. Along with her husband, Gregory Antoine, of blessed memory, they personally helped bring more than 160 Russian Jews to Israel to begin new lives in their ancestral homeland. Her lifetime commitment has been to see Ezekiel 36 fulfilled — the return of the Jewish people from the Diaspora and their restoration to dwell safely in their own land.",
+            "On a personal level, Parthenia has been incredibly helpful in making important connections for Texans for a Safe Israel as well as supporting our projects. But beyond all she has done for TFSI and her many years of service to Israel, she is simply a wonderful friend. I am grateful to have her in my life."
+          ]
+        },
+        {
           "slug": "gidon-ariel",
           "name": "Gidon Ariel",
           "affiliation": "Root Source",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Founder of Root Source, built for Jewish–Christian dialogue, study, and lasting relationships.",
           "story": [
             "I have the warmest feelings when I think of our good friend Gidon. He is family also. He has been to The Blessing many times. He is the best connector I know. He has the ability to schmooze like none other! He is just comfortable with everyone. People love him. I love him.",
@@ -436,7 +547,10 @@
           "slug": "ayala-bar-on",
           "name": "Ayala Bar-On",
           "affiliation": "Har Hevron Regional Council",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Head of the Foreign Desk and International Spokesperson for the Har Hevron (Southern Hebron Hills) Regional Council. Visited The Blessing in June 2025.",
           "story": [
             "Ayala Bar-On came to The Blessing in June 2025, at the same time as Ruthy Mann. Ayala is a beautiful young woman with an important responsibility as Head of the Foreign Desk and International Spokesperson for the Har Hevron Regional Council, also known as the Southern Hebron Hills Regional Council. She has a big job—building international partnerships and connecting the Hills of Hebron with people around the world.",
@@ -448,7 +562,9 @@
           "slug": "menachem-bar-shalom",
           "name": "Menachem Bar-Shalom",
           "affiliation": "Israel Magen Fund",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Formerly with ZAKA; now works with Israel Magen Fund supporting Holocaust survivors in Ma'ale Adumim, including the piano given to a 90-year-old concert pianist.",
           "story": [
             "Menachem is another family friend. I first met him through his position as American Fund Raiser for ZAKA, an Israeli first responder group that works internationally. In any global crisis, you will see ZAKA’s yellow jackets. We remained friends after his retirement.",
@@ -462,7 +578,9 @@
           "slug": "moshe-bar-zvi",
           "name": "Moshe Bar Zvi",
           "affiliation": "Jerusalem Post / Footsteps",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Former president of the Jerusalem Post and founder of Footsteps. Visited during the 2015 snowstorm and still filled the house.",
           "story": [
             "A man I will never forget. It was Feb. 28, 2015, and DFW’s biggest snow day in a long time. I think it still holds the record for DFW this century. How do you get people to attend an event featuring someone they have never heard of? That is really a perennial challenge even today.",
@@ -474,7 +592,10 @@
           "slug": "sondra-oster-baras",
           "name": "Sondra Oster Baras",
           "affiliation": "CFOIC Heartland",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "From Ohio, family since 2011. Bridges Christians and Jews from the Heartland with law and Torah teaching.",
           "story": [
             "I first met her in 2011 when she and Dror Vanunu were our first Israeli Orthodox guests, or Religious Zionists. Sondra is another guest I count as family.",
@@ -484,10 +605,12 @@
           ]
         },
         {
-          "slug": "diane-jerry-benjamin",
+          "slug": "diane-benjamin-and-jerry-benjamin",
           "name": "Diane Benjamin and Jerry Benjamin",
           "affiliation": "North Dallas",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "TFSI’s first Jewish friends in the Dallas Jewish community. Diane led B’nai Zion for years; Jerry represents the Jewish War Veterans.",
           "story": [
             "Diane and Jerry Benjamin were our first Jewish friends in the Dallas Jewish community, and what a blessing they have been! Anytime I have asked them to host someone, they have always been willing to help. They have even made the trek down to Granbury a few times to visit us!",
@@ -500,7 +623,9 @@
           "slug": "lorrie-cardoza-moore",
           "name": "Lorrie Cardoza Moore",
           "affiliation": "Proclaiming Justice to the Nations",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Christian activist, film producer, and longtime host of Focus on Israel. TFSI donates to her organization.",
           "story": [
             "Lorrie Cardoza Moore is not only a dear friend of TFSI, but also a woman whose passion for Israel, the Jewish people, and our nation’s Judeo-Christian heritage I deeply admire. She is a Christian activist, film producer, and longtime host of Focus on Israel, a television program that has educated Christian audiences about Israel for many years.",
@@ -510,10 +635,12 @@
           ]
         },
         {
-          "slug": "bill-cloud",
-          "name": "Bill Cloud",
+          "slug": "pastor-bill-cloud",
+          "name": "Pastor Bill Cloud",
           "affiliation": "Shoreshim Ministries",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A Christian minister who teaches shared Hebraic roots. Based in Cleveland, Tennessee.",
           "story": [
             "Although we are Christians, most of our guests have been Orthodox. Bill is a Christian minister who loves Israel and the Jewish people and works from the Christian side to be a bridge builder to the Jewish people. He accomplishes this by educating Christians about our shared Hebraic Roots.",
@@ -525,7 +652,9 @@
           "slug": "chaplain-ruthann-crosby",
           "name": "Chaplain Ruthann Crosby",
           "affiliation": "Alaska",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A teacher who opens up Jewish Scripture for Christians. Two TFSI board members have flown to Alaska to learn from her.",
           "story": [
             "We are a small group of people who are deeply committed to building bridges of understanding and friendship with the Jewish people. Somehow, people with like hearts find one another, and when Ruthann found us, our hearts immediately bonded.",
@@ -534,10 +663,12 @@
           ]
         },
         {
-          "slug": "christine-peter-darg",
+          "slug": "christine-and-peter-darg",
           "name": "Christine and Peter Darg",
           "affiliation": "The Jerusalem Channel / Exploits Ministry",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Journalists and ministers in Israel since 1975. Christine is known for connecting with Orthodox Jews, Arabs, and Christians.",
           "story": [
             "Perhaps best known today for The Jerusalem Channel and Exploits Ministry. We were flattered to host Christine and Peter through the friendship of Jodi and Keith Anderson.",
@@ -546,23 +677,12 @@
           ]
         },
         {
-          "slug": "yigal-dilmoni",
-          "name": "Yigal Dilmoni",
-          "affiliation": "Yesha Council / American Friends of Judea and Samaria",
-          "tags": ["Israel", "Heartland"],
-          "summary": "CEO of the Yesha Council and founder of American Friends of Judea and Samaria. TFSI is working with him on support for farms in the region.",
-          "story": [
-            "Yigal Dilmoni is the CEO of the Yesha Council, which, for us Texans, is somewhat like the governing voice of Judea and Samaria. TFSI first met Yigal in 2025 through our connection with the Israeli grassroots organization founded by Nadia Matar and Yehudit Katsover, which advocates for Jewish communities in Gaza, Judea, and Samaria.",
-            "Yigal and I met again at the Israel Forum last November. This week (October 2026), two TFSI board members are meeting with Yigal to discuss how we can best support the growth and development of farms in the region, including sheep and cattle operations and the provision of farm equipment and tractors.",
-            "Yigal is now also the founder and CEO of American Friends of Judea and Samaria, and it is a WONDERFUL ORGANIZATION! One of his greatest strengths is his exceptional ability to connect with people and build support for Israel through outreach. We look forward to welcoming him personally to The Blessing and continuing to build this important relationship."
-          ],
-          "website": "https://afjs.org"
-        },
-        {
-          "slug": "tim-amy-eastwell",
+          "slug": "tim-and-amy-eastwell",
           "name": "Tim and Amy Eastwell",
           "affiliation": "The Narrow Bridge",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A young family from Colorado Springs who livestream prayer from the Walls of Jerusalem. Joined by 50,000 people from more than 70 countries.",
           "story": [
             "Tim and Amy Eastwell are just the greatest couple from Colorado Springs! As I write these words, I want you to understand that this is a young family with a dream, simply trying to respond to the Lord as faithfully as they know how.",
@@ -572,10 +692,12 @@
           "website": "https://thenarrowbridge.org"
         },
         {
-          "slug": "daniel-alana-elliot",
+          "slug": "daniel-and-alana-elliot",
           "name": "Daniel and Alana Elliot",
           "affiliation": "Israeli Good Wine",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Certified sommeliers who import award-winning wines from the Golan Heights, Samaria, the Galilee, and the Elah Valley. Former guests at The Blessing.",
           "story": [
             "Daniel and Alana Elliot are both certified sommeliers and the founders of Israeli Good Wine. They bring the very best of Israel’s wine country right to your door, importing and delivering high-quality, award-winning wines directly from vineyards in the Golan Heights, the hills of Samaria, the Galilee, and the Elah Valley.",
@@ -588,7 +710,9 @@
           "slug": "ambassador-yoram-ettinger",
           "name": "Ambassador Yoram Ettinger (Retd.)",
           "affiliation": "U.S.–Israel relations",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "An expert in U.S.–Israel relations and a frequent guest. Known for humility and a love of music.",
           "story": [
             "One of our favorites, but this list contains all favorites. We have never had anyone stay with us that was nothing but a delight. Any one of the people we have hosted would be a great guest speaker for you.",
@@ -601,7 +725,10 @@
           "slug": "tova-feldman",
           "name": "Tova Feldman",
           "affiliation": "Holocaust survivor, Arlington",
-          "tags": ["Holocaust survivors", "Texas / U.S."],
+          "tags": [
+            "Holocaust survivors",
+            "Texas / U.S."
+          ],
           "summary": "A survivor who later came to Israel in 1949 and now lives in Arlington. Still teaches Hebrew.",
           "story": [
             "One of my best friends. I met Tova through Jodi Anderson. When I found out she taught Hebrew, I signed up. That was nine years ago, and I could write a book about our sweet relationship. Tova is loved by so many. She is often the honored guest at any event. She is a very young Survivor. Her story, her family story, is a Miracle Story.",
@@ -623,7 +750,9 @@
           "slug": "jonathan-feldstein",
           "name": "Jonathan Feldstein",
           "affiliation": "Genesis 123 Foundation / Run For Zion",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Connects Jews, Christians, and Israel through Run For Zion and the Genesis 123 Foundation.",
           "story": [
             "Throughout three decades of work in non-profit PR, marketing, and fundraising, Jonathan has developed a unique and meaningful niche building bridges between Jews and Christians and Christians with Israel. He has taken this calling to new heights as President of Run for Zion and the Genesis 123 Foundation.",
@@ -633,10 +762,12 @@
           ]
         },
         {
-          "slug": "jayne-steve-foss",
+          "slug": "jayne-and-steve-foss",
           "name": "Jayne and Steve Foss",
           "affiliation": "Bridges for Peace",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Jayne is Southwest Director for Bridges for Peace. Steve often introduces speakers at events in Grapevine, Texas.",
           "story": [
             "Steve and Jayne are two wonderful Christian friends who have blessed TFSI beyond measure. They have faithfully helped us spread the word about our events, sharing our heart for serving the Jewish people and standing with Israel. Steve is a gifted speaker with a deep appreciation for the restoration of Israel, and he often introduces speakers at events in Grapevine, Texas.",
@@ -648,7 +779,10 @@
           "slug": "helen-freedman",
           "name": "Helen Freedman",
           "affiliation": "Americans for a Safe Israel",
-          "tags": ["Texas / U.S.", "Heartland"],
+          "tags": [
+            "Texas / U.S.",
+            "Heartland"
+          ],
           "summary": "Former AFSI director and mentor. A tireless advocate for Judea and Samaria.",
           "story": [
             "Helen, of blessed memory, was the Director of AFSI for many years, but much more; she was my mentor and friend. There was no better spokesperson for the rights of the Jewish people to a Whole Israel, to Historic Israel, than Helen Freedman.",
@@ -660,7 +794,9 @@
           "slug": "benji-gershon",
           "name": "Benji Gershon",
           "affiliation": "American Jewish Conservatives",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Founder of American Jewish Conservatives. TFSI supports him every month.",
           "story": [
             "Benji Gershon is the founder of American Jewish Conservatives, a grassroots organization committed to the enduring principles that have shaped our nation. They are fervently pro-God, pro-America, pro-Israel, and pro-Constitution.",
@@ -669,27 +805,46 @@
           ]
         },
         {
-          "slug": "jeremy-tehila-gimpel",
-          "name": "Jeremy and Tehila Gimpel",
+          "slug": "rabbi-jeremy-and-tehila-gimpel",
+          "name": "Rabbi Jeremy and Tehila Gimpel",
           "affiliation": "Arugot Farm / Land of Israel Fellowship",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Pivotal in the Sovereignty Movement and in reaching Christians through the Land of Israel Fellowship. Their work at Arugot Farm in the Judean hills is one of TFSI’s closest partnerships.",
           "story": [
             "Years ago, I saw two young men on a Jewish TV station. It was Jeremy Gimpel and Ari Abromowitz. I didn’t realize that they were in a circle of people that would end up including many of the people on this list. Helen Freedman, among others here, was on their Tuesday Night in Jerusalem show. You can still find some of those shows on YouTube.",
             "Traveling with Americans for a Safe Israel, our paths would cross, and the Gimpels began to come to the U.S. for a month’s tour each year. Granbury became a stop. We have become a way station, a safe place to eat and rest on a long journey. We are at a crossroads for Texas and the U.S.; the DFW International airport is not so far away.",
-            "They are at the forefront of the Sovereignty Movement for Judea and Samaria. Their initiative of reaching out to Christians is unsurpassed with their Land of Israel Fellowship. There is wonderful work going on in the Judean hills. If you go to Israel, you must go to Arugot Farm!"
+            "They are at the forefront of the Sovereignty Movement for Judea and Samaria. Their initiative of reaching out to Christians is unsurpassed with their Land of Israel Fellowship. There is wonderful work going on in the Judean hills. If you go to Israel, you must go to Arugot Farm!",
+            "Tehila Gimpel has visited us with her husband, Rabbi Jeremy Gimpel for a number of years, and at one time or another, all of their children have been here.  Her bio describes her as a devoted wife, mother of six, lawyer, and Torah educator living in the hills of Judea. As one of the leading teachers in the Land of Israel Fellowship, Tehila is known for her warmth, clarity, and ability to make ancient wisdom deeply relevant to modern life. Her initiative, Women of Valor, was born from her dream of creating a sacred space for women to learn, grow, and connect. If you listen to her stories and teachings, you will see how she brings the Tanakh to life and helps you discover its relevance to your own life.",
+            "On a personal note, Tehila helped me work through a dilemma that has stayed with me. TFSI had adopted about 50 Holocaust survivors from the city of Ma’ale Adumim. We helped with a variety of needs, from electronics and therapies not covered by the Israeli government to replacing a bathtub with a shower. We bought furniture and even took care of small things, such as replacing a broken bread maker with a new one. But one of the more expensive requests was for a piano. Whenever I mentioned it to others, they suggested that the money would be better spent donating to a food pantry. I understood their point, but I was still wrestling with the decision.",
+            "One day, Tehila and I were in the laundry room sorting clothes, and I shared my dilemma with her. I explained that this Holocaust survivor had been a concert pianist in the Soviet Union, but now lived alone in a tiny apartment in Ma’ale Adumim. Without hesitation, Tehila began teaching me about two important concepts: hesed and teshuvah. Hesed is an act of loving-kindness that goes beyond duty or obligation. Teshuvah literally means “return.” As Tehila explained it, giving the piano was about more than charity or applying a temporary bandage to a problem. It was about restoring a person, as much as possible, to the dignity and wholeness of the life he had once known. There was a measure of justice in helping someone reclaim what had given his life meaning. Then she said, with unmistakable conviction, “ABSOLUTELY, YES! WHAT IS LIFE FOR A CONCERT PIANIST WITHOUT A PIANO?”",
+            "That settled it! Not only did this Holocaust survivor receive his piano, but he was later invited to the Russian Embassy in Tel Aviv to perform at an event. I have never forgotten that lesson. Tehila helped me see that sometimes kindness means looking beyond a person's immediate needs and recognizing what makes life meaningful to them. That day in the laundry room, she didn't just teach me Torah. She helped me understand how to live it."
           ]
         },
         {
           "slug": "israel-glass",
           "name": "Israel Glass",
-          "tags": []
+          "affiliation": "Israel365 connections",
+          "tags": [
+            "Israel",
+            "Texas / U.S."
+          ],
+          "summary": "Helped connect Ann with Rabbi Eli Mischel’s Torah teaching and foster relationships between Israel365 and the DFW community.",
+          "story": [
+            "One day, Israel Glass called and asked, “How would you like to be in a Zoom with a rabbi who was teaching the Book of Judges?” As memory serves, I think there were three of us the first week, but the group grew! As often happens on Zoom, there is sometimes a little conversation before or after the teaching. One time, I mentioned that if they ever came to Texas, they should look us up. They immediately replied, “We have been thinking about coming to Texas!”",
+            "Because of Israel Glass’s persistence, Israel365 now has an enormous presence in the DFW area. Not because of TFSI, but because of a cup of coffee with one lady—Sharon Michaels. From that simple beginning, friendships between Jews and Christians have grown and reached an entirely new level. And that rabbi who taught the Book of Judges has become like family to us: Rabbi Eli Mischel. Perhaps we could borrow Caesar’s famous words: The die was cast! Texas Jews and Christians, together with Israel365, crossed the Rubicon in Jewish-Christian relations. Sometimes, you never know where one phone call, one invitation, or one cup of coffee will lead!"
+          ]
         },
         {
           "slug": "ephraim-goldsmith",
           "name": "Ephraim Goldsmith",
           "affiliation": "Itamar",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Son of Rabbi Moshe and Leah Goldsmith. Stayed for several weeks after his IDF service and remains close with the Stacy family.",
           "story": [
             "Ephraim, along with his parents, Rabbi Moshe and Leah Goldsmith from Itamar, were among some of our very first guests at The Blessing. Many Israelis take time to travel and rest after completing their IDF service, and Ephraim stayed with us for several weeks.",
@@ -702,7 +857,9 @@
           "slug": "rachel-greene",
           "name": "Rachel Greene",
           "affiliation": "The Patriot Nurse",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Teaches emergency preparedness and self-sufficiency. A Zionist who travels the back roads of Judea and Samaria.",
           "story": [
             "Rachel Greene is a gem! Years ago, I suggested that my daughter-in-law take Rachel’s class on emergency preparedness and self-sufficiency. You can learn more about her at ThePatriotNurse.com.",
@@ -715,7 +872,10 @@
           "slug": "eve-harow",
           "name": "Eve Harow",
           "affiliation": "Rejuvenation With Eve Harow / Land of Israel Network",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Tour guide and veteran podcaster who knows Judea and Samaria and the people who live there. In the 1990s she camped on Dagan Hill to keep it from being given away, and she lives there today.",
           "story": [
             "I first met Eve in November 2025, but it feels as though we have known each other our entire lives! I have long admired her work as a veteran podcaster on the Land of Israel Network, where she hosts Rejuvenation With Eve Harow. Eve is also one of Israel’s outstanding tour guides. What makes her so special is her ability to connect the past, present, and future at every stop. She knows Judea and Samaria like the back of her hand—not only its history and geography but, more importantly, the people who live there. Her close relationships with the residents bring the Biblical Heartland to life in a way few guides can. Eve guides with her Bible in hand! How many guides do that?",
@@ -729,7 +889,10 @@
           "slug": "luke-hilton",
           "name": "Luke Hilton",
           "affiliation": "HaYovel",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "HaYovel’s Director of Marketing. Work includes The Joshua and Caleb Report and The Israel Guys podcast.",
           "story": [
             "I first met Luke in early 2018. Glenn Beck was hosting HaYovel for a birthday celebration for the State of Israel. If memory serves, we had 31 people sleeping at our home that week. I quickly recognized this young man was a Divine Appointment, not only for the Wallers’ daughter, but it was clear he was gifted in so many business ways, a perfect fit for the work of HaYovel.",
@@ -741,7 +904,9 @@
           "slug": "lori-hinze",
           "name": "Lori Hinze",
           "affiliation": "Israel tours",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Leads immersive tours focused on the land’s rejuvenation, food, and cultural connection.",
           "story": [
             "Lori’s first trip to Israel was in 2014. She had an encounter that changed her life. After that, she began to make multiple trips and even began to lead her own.",
@@ -751,10 +916,24 @@
           "website": "https://justamongfriends.org"
         },
         {
+          "slug": "im-turtzu-representative",
+          "name": "Im Turtzu representative",
+          "affiliation": "Im Turtzu",
+          "tags": [
+            "Israel"
+          ],
+          "summary": "A December 2022 guest whose visit helped connect Mike Isley with Im Turtzu leadership and later opportunities.",
+          "story": [
+            "I have not been able to find the name of the young man who visited us in December 2022 representing Im Turtzu, one of Israel’s leading grassroots Zionist organizations. Im Turtzu is involved in hands-on Zionist activism, not only educating the public but also monitoring anti-Israel incitement in academia and the media and promoting legislation in the Knesset. This young man became part of a remarkable story involving our friend, Mike Isley. At the time, Mike had been sitting in the “cheap seats” at a Charlie Kirk Turning Point USA event. Mike happened to be staying with us and mentioned that he was planning to attend another Turning Point event in a couple of weeks. When the young man from Im Turtzu heard this, he said, “My boss is going to that!” Long story short, Mike connected with his boss, who invited him to sit with him in the good seats! At the beginning of the Turning Point event, Charlie Kirk even called out the man’s name and said he is my good Jewish friend from Israel. There is much more to this story, but the connection eventually led to Mike hosting Charlie Kirk and his team at an elegant private dinner in Amarillo in 2024. It is amazing how a visit to The Blessing can lead to unexpected connections and friendships that open doors to opportunities none of us could have anticipated!"
+          ]
+        },
+        {
           "slug": "mike-isley",
           "name": "Mike Isley",
           "affiliation": "Texans for Israel",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Founder and president of Texans for Israel, and Vice President of Texans for a Safe Israel.",
           "story": [
             "The founder and president of Texans for Israel. Mike is loved by so many in Israel, as well as America. Mike is legendary! We all have a “Mike story”! God has given him the gift and the assignment of being a heavenly connector. With the people Mike meets and the connections he makes, one can only say, “it is the Hand of God.”",
@@ -767,7 +946,10 @@
           "slug": "the-israel-guys",
           "name": "The Israel Guys",
           "affiliation": "HaYovel",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Biblical news analysis and frontline reporting from Judea and Samaria. Broadcast from the Granbury home during the June 2025 Judea Samaria Convention.",
           "story": [
             "The Israel Guys have, to the best of my knowledge, all visited our home in Granbury, Texas.",
@@ -781,7 +963,9 @@
           "slug": "becky-janel",
           "name": "Becky Janel",
           "affiliation": "God’s Learning Channel",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Guest Services representative for God’s Learning Channel. Arranges remote interviews from the Granbury home with GLC in West Texas.",
           "story": [
             "Becky has been a longtime friend and supporter of TFSI. She lives in a nearby town, Glen Rose, Texas, a charming country-western town much like Granbury. As the Guest Services representative for God’s Learning Channel (GLC) in Odessa, Texas, she plays an important role in connecting guests with the network.",
@@ -794,7 +978,10 @@
           "slug": "shumel-junger",
           "name": "Shumel Junger",
           "affiliation": "Christian Friends of Israeli Communities",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "A Sabra and leader with CFOIC, connecting Jewish and Christian communities.",
           "story": [
             "Shmuel is with Christian Friends of Israeli Communities. We had the honor of hosting him last year. He was just a joy, and we had the blessing of him coming back in April of this year.",
@@ -807,7 +994,10 @@
           "slug": "judy-freeman-kadish",
           "name": "Judy Freeman Kadish",
           "affiliation": "Americans for a Safe Israel",
-          "tags": ["Texas / U.S.", "Heartland"],
+          "tags": [
+            "Texas / U.S.",
+            "Heartland"
+          ],
           "summary": "Director of Americans for a Safe Israel. AFSI Chizuk Missions are how many of these friendships began.",
           "story": [
             "The Director of Americans for a Safe Israel. For several years, Judy was co-director with her mother, Helen Freedman. Judy knows all the “movers and shakers” in the Sovereignty Movement, other Israeli organizations, and their counterparts in America.",
@@ -820,7 +1010,9 @@
           "slug": "david-kiern",
           "name": "David Kiern",
           "affiliation": "I Am Israel",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Filmmaker behind the short film I Am Israel. Brought to the Stacy home by Mike Isley.",
           "story": [
             "A few years ago, Mike Isley brought David Kiern to our home. We showed the now famous short film, I AM ISRAEL. I thought, “someday we will say David Kiern slept here.”",
@@ -828,10 +1020,12 @@
           ]
         },
         {
-          "slug": "james-louann-knight",
+          "slug": "james-and-louann-knight",
           "name": "James (Poppa) and Louann Knight",
           "affiliation": "Guests",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Visited the home and left a hand-printed Esther Scroll that the family still keeps.",
           "story": [
             "This couple came to our home a few years ago. I remember exactly where he was sitting. Such a sweet man and a lovely wife. They have been to several of our events in Granbury and Keller.",
@@ -842,7 +1036,9 @@
           "slug": "dr-ryan-lambert",
           "name": "Dr. Ryan Lambert",
           "affiliation": "Jewish–Christian relations",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Twenty years in Jewish–Christian relations, focused on the Jewishness of Jesus and Paul.",
           "story": [
             "Dr. Ryan Lambert is a Jewish leader who has worked in the area of Jewish-Christian relations for 20 years. He specializes in communicating the Jewishness of Jesus and Paul. As “Your Jewish Coach,” Ryan also helps individuals and organizations find clarity in their passion, purpose and messaging.",
@@ -850,10 +1046,29 @@
           ]
         },
         {
-          "slug": "dr-rusty-maisel",
+          "slug": "yair-levi",
+          "name": "Yair Levi",
+          "affiliation": "Jewish soul music",
+          "tags": [
+            "Israel"
+          ],
+          "summary": "Musician and former Israeli Navy captain whose October 2026 visit included a concert, Shabbat gathering, and teaching from the Siddur.",
+          "story": [
+            "Yair Levi is a Jewish Levite (a descendent of the Tribe of Levi) who served as a captain in the Israeli Navy Seals for 8 years. He creates a mixture of Jewish soul music with his faith and Biblical Values. Through his songs he is able to revive ancient music and bring it to today's world. His music creates a connection between people of different cultures and religions. He says music is the universal language.",
+            "Yair came to see us during October 2026.  We arranged a concert with Generations Church through that wonderful Pastor Latta. Friday we had a beautiful catered Shabbat for 45 people. Saturday morning was especially memorable as several of us from the area listened as he walked us through the morning prayers of the Jewish Prayer Book, the Siddur. One that impressed me is the Morning Prayer On Waking. The first thing you say when you open your eyes is:",
+            "I thank YOU living and eternal King",
+            "for giving me back my soul in mercy",
+            "Great is Your faithfulness",
+            "He added that our soul is returned to us because G-d believes in us, and Yair adds, “You believe in me, for one more day You are connecting me to the world...great is Your faithfulness.”"
+          ]
+        },
+        {
+          "slug": "dr-rusty-maisel-and-john-sliffe",
           "name": "Dr. Rusty Maisel and John Sliffe",
           "affiliation": "The Enduring Word Museum",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Rusty founded The Enduring Word Museum and was an authority on historical manuscripts and early printing. John Sliffe carries on his work.",
           "story": [
             "Rusty was one of our first guests at The Blessing in 2015. He founded The Enduring Word Museum in the 1990s and was passionate about helping Christians understand the history of their Bible. He was a recognized authority on historical manuscripts, manuscript traditions, and early printing. I could hardly believe the authentic historical artifacts he brought into our home!",
@@ -866,7 +1081,10 @@
           "slug": "ruthy-mann",
           "name": "Ruthy Mann",
           "affiliation": "Ruthy’s Horse Farm",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Runs an animal-assisted therapy ranch in the Judean Hills near Alon, helping Israelis carrying the trauma of war. Visited The Blessing in June 2025.",
           "story": [
             "Ruthy Mann operates an animal-assisted therapy center, known as Ruthy’s Horse Farm or Ruti’s Farm, in the Judean Hills near the biblical Good Samaritan Road, east of Jerusalem, outside Alon in the Binyamin region. Ruthy came to The Blessing in June 2025, at the same time as Ayala Bar-On. With so many Israelis carrying the emotional wounds and trauma of war, her therapeutic horses are in great demand. Through her work, Ruthy offers a special kind of healing, helping people find comfort, connection, and hope through their time with these beautiful animals.",
@@ -875,10 +1093,13 @@
           "website": "https://cbn.com/news/israel/israeli-ranch-near-biblical-good-samaritan-road-ministers-healing-through-horses"
         },
         {
-          "slug": "dr-robert-janet-mawire",
+          "slug": "dr-robert-and-janet-mawire",
           "name": "Dr. Robert and Janet Mawire",
           "affiliation": "Ariel",
-          "tags": ["Texas / U.S.", "Israel"],
+          "tags": [
+            "Texas / U.S.",
+            "Israel"
+          ],
           "summary": "Overnight guests. Dr. Mawire worked closely with Ron Nachman, the longtime mayor of Ariel, and twice carried a warning to Benjamin Netanyahu not to divide the Land.",
           "story": [
             "Dr. Robert Mawire and his wife, Janet, have both been overnight guests in our home, and I have a remarkable story to share about Dr. Mawire.",
@@ -892,7 +1113,9 @@
           "slug": "joseph-mendez",
           "name": "Joseph Mendez",
           "affiliation": "The Jerusalem Violinist",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "A world-class violinist who moved to Israel in 2005 to minister to the families expelled from Gaza.",
           "story": [
             "Joseph Mendez, The Jerusalem Violinist, a world-class violinist, has such an interesting story. Like many of us, when he fell in love with the Word of G-d, he fell in love with Israel and the Jewish people.",
@@ -900,10 +1123,12 @@
           ]
         },
         {
-          "slug": "charles-sharon-michaels",
+          "slug": "charles-and-sharon-michaels",
           "name": "Charles and Sharon Michaels",
           "affiliation": "Israel365, Dallas–Fort Worth",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Met at an AIPAC meeting in Dallas. Sharon has become the face of Israel365 in the Dallas–Fort Worth area.",
           "story": [
             "As with so many of the connections TFSI has made over the years, our relationship with Charles and Sharon Michaels seems to have begun by sheer chance, but we have come to recognize how meaningful these unexpected connections can be!",
@@ -917,7 +1142,9 @@
           "slug": "lily-sironi-mills",
           "name": "Lily Sironi Mills",
           "affiliation": "Israeli Ambassador at the U.N.",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Once a high-school attendee at pro-Israel gatherings in the home. Later served with the Israeli Ambassador at the U.N.",
           "story": [
             "In high school, she would come to our home in Keller (a suburb of Fort Worth) and listen to pro-Israel Christians and Zionist Jews. Early on, her parents’ lives and ours crossed through Eagle Mountain Church and Tova Feldman, a Hebrew teacher and a Holocaust Survivor. Julie and Ethan were determined to take their very young children on that first trip to Israel.",
@@ -926,10 +1153,25 @@
           ]
         },
         {
+          "slug": "luke-moon",
+          "name": "Luke Moon",
+          "affiliation": "Generation Zion",
+          "tags": [
+            "Texas / U.S.",
+            "Israel"
+          ],
+          "summary": "Founder of Generation Zion, Visiting Fellow at the Heritage Foundation, and former Director of The Philos Project.",
+          "story": [
+            "Luke Moon is the Founder of Generation Zion, which mobilizes Gen Z for Israel and Western Civilization. He is also a Visiting Fellow at the Heritage Foundation’s Davis Institute for National Policy and Security and the former Director of The Philos Project. Wow! It amazes us that, with all he has going on, Luke still takes the time to visit TFSI. Someone once told me that, on short notice, he could mobilize 500 young people in support of Israel and Biblical values. I believe it! His generation is so important to the future of Israel and the values we hold dear. Watch this video to learn more about Luke and the work he is doing. https://www.youtube.com/watch?v=n4_iNHZ_09A"
+          ]
+        },
+        {
           "slug": "bob-odell",
           "name": "Bob O’Dell",
           "affiliation": "Austin",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "A hi-tech entrepreneur and philanthropist from Austin. Author and speaker on Jewish and Israel-related causes.",
           "story": [
             "Bob is a good friend who lives in Austin, Texas. I have heard many life testimonies, but Bob’s is one of the best. He is a hi-tech entrepreneur and a philanthropist to Jewish and Israel-related causes.",
@@ -941,7 +1183,9 @@
           "slug": "allan-parker",
           "name": "Allan Parker",
           "affiliation": "The Justice Foundation",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "His Justice Foundation played the leading legal role in overturning Roe v. Wade and Doe v. Bolton. Host of the Jerusalem Prayer Breakfast in Dallas and Houston.",
           "story": [
             "Allan Parker’s The Justice Foundation played the leading legal role in the case that ultimately helped overturn Roe v. Wade and Doe v. Bolton, two landmark decisions that had established a constitutional right to abortion in America. What an honor it is to know this man and the work of his foundation!",
@@ -954,7 +1198,9 @@
           "slug": "elie-pieprz",
           "name": "Elie Pieprz",
           "affiliation": "Clarity Coalition",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "A Jerusalem-based lobbyist in economic policy and taxation and a director of political campaigns. Visited The Blessing in 2025.",
           "story": [
             "Elie Pieprz was one of those Divine Appointments for TFSI. Mike Isley of Texans for Israel and I were sitting at the airport getting ready to board a plane for Israel when Elie called Mike. He wanted to let him know that he was coming to the U.S. the next week. Mike told him we were coming to Israel! We met at his home in Jerusalem.",
@@ -964,20 +1210,32 @@
           "website": "https://claritycoalition.org"
         },
         {
-          "slug": "norm-angel-poorman",
+          "slug": "norm-and-angel-poorman",
           "name": "Norm and Angel Poorman",
-          "tags": []
+          "affiliation": "",
+          "tags": [],
+          "summary": ""
         },
         {
           "slug": "bunni-pounds",
           "name": "Bunni Pounds",
-          "tags": []
+          "affiliation": "Christians Engaged",
+          "tags": [
+            "Texas / U.S."
+          ],
+          "summary": "Founder of Christians Engaged, a ministry encouraging Christians to pray, vote, and engage in civic life.",
+          "story": [
+            "Bunni Pounds is an amazing young woman. She founded a grassroots organization called Christians Engaged, a voter-mobilization ministry that encourages Christians to pray, vote, and engage in civic life, rooted in the Word of God. Bunni was with us at The Blessing a number of years ago, when Christians Engaged was still in its grassroots stages. Today, the ministry has grown tremendously, reaching more than a million Christian voters. It is inspiring to see how a vision that began with a desire to encourage Christians to become more involved in our nation’s future has grown into such an influential ministry. Christiansengaged.org"
+          ]
         },
         {
           "slug": "marc-provisor",
           "name": "Marc Provisor",
           "affiliation": "One Israel Fund / Shiloh",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Met in Israel with AFSI. Head of security for One Israel Fund; now also an artist. Artwork at marcpro.art.",
           "story": [
             "I met Marc on my first visit to Israel with Americans for a Safe Israel. Early morning on the first day, we went to a hilltop in Samaria where a small family lived in an old bus. They were growing some produce on the rocky ground, and a bedsheet with the star of David was their flag. What amazed me was their happiness in being in Eretz Israel, in living out the prophesied Scriptures about the return of the Jewish people to the Land.",
@@ -989,10 +1247,40 @@
           "website": "https://oneisraelfund.org"
         },
         {
+          "slug": "yohai-provisor",
+          "name": "Yohai Provisor",
+          "affiliation": "One Israel Fund",
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
+          "summary": "Director of Security Projects at One Israel Fund, following his father Marc Provisor; hosted at The Blessing in June 2025.",
+          "story": [
+            "Yohai Provisor is the son of the well-known Marc Provisor, who has visited The Blessing many times over the years. Yohai has now stepped into his father’s former role as Director of Security Projects at OneIsraelFund.org, and we were blessed to host him in June 2025. Marc had often spoken about his dream of visiting the beautiful Hill Country ranch of our dear friends, Greg and Marietta Harrell. We were delighted to help make that connection for Yohai, fulfilling a dream his father had talked about for so long. These are the kinds of relationships that make our lives so rich. Our Jewish friends become our extended family—just ask Greg and Marietta! Yohai is a rising star in Israel, and I encourage you to look him up on Instagram and follow his work. You’ll be glad you did!"
+          ]
+        },
+        {
+          "slug": "nati-rom",
+          "name": "Nati Rom",
+          "affiliation": "Heartland of Israel / Lev HaOlam",
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
+          "summary": "Israeli lawyer and Zionist pioneer who advocates for Jewish legal rights and supports businesses and communities in Judea and Samaria.",
+          "story": [
+            "Nati Rom is an Israeli lawyer, public figure, Zionist pioneer, and, most importantly, our friend! He is dedicated to defending Jewish individuals and fighting for their legal rights in Judea and Samaria.",
+            "As I understand it, Nati did not originally set out to become a lawyer. Rather, he recognized that the pioneers living in Judea and Samaria needed someone willing to stand up for them and advocate for their rights as Jews in their own land. He saw a need and stepped forward to fill it. Since his teenage years, Nati has been involved in establishing and pioneering new Jewish communities in Samaria and the Judean hills. He founded Heartland of Israel to connect international supporters with pioneering communities in the biblical heartland. He also founded Lev HaOlam (“Heart of the Nation”), an organization that supports local businesses and artisans in Judea and Samaria who face the challenges of international boycotts. Through these efforts, Nati helps build connections between people around the world and the Jewish families who are putting down roots in their biblical homeland.",
+            "Our connection with Nati has a personal story, too. Somehow, our daughter-in-law crossed paths with him in Samaria, and together they crowded into a car to get to a police station in Jerusalem to help an innocent person who had been wrongfully accused. That story says so much about Nati. When someone needs help, he doesn't just talk about justice—he takes action! We are grateful to know Nati, not only for the important work he does, but also for the personal commitment and courage behind it. His life and work reflect a deep love for the Jewish people, a dedication to the pioneers of Judea and Samaria, and a determination to defend their right to live in their biblical homeland. For us at TFSI, friendships like this are at the heart of what we do: building meaningful relationships with the people who live, work, and pioneer in the land we care so deeply about. Heartlandofisrael.org"
+          ]
+        },
+        {
           "slug": "david-rose",
           "name": "David Rose",
           "affiliation": "Israel Magen Fund / ZAKA",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Visited twice — first with ZAKA, later with the Israel Magen Fund, which supports vulnerable communities in the Binyamin region.",
           "story": [
             "He has visited our home twice, once with ZAKA, which he represented for years, and later with Israel Magen Fund. This latest organization works round-the-clock to support vulnerable Israeli communities and families living in the Binyamin Region of Israel.",
@@ -1003,7 +1291,10 @@
           "slug": "david-rubin",
           "name": "David Rubin",
           "affiliation": "Shiloh Israel Children’s Fund",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Former mayor of Shiloh and founder of the Shiloh Israel Children’s Fund. Photographed at the house with Ann Stacy.",
           "photo": "/images/guest-ann-stacy-david-rubin.jpg",
           "photoAlt": "Ann Stacy and David Rubin beneath the Israeli flag in the lodge",
@@ -1013,7 +1304,9 @@
           "slug": "judy-tashbook-safern",
           "name": "Judy Tashbook Safern",
           "affiliation": "Jerusalem",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Former publisher of Dallas Jewish Monthly, now in Jerusalem. Organized the TFSI campaign that fed Israeli battalions.",
           "story": [
             "Formerly the publisher of Dallas Jewish Monthly, Judy is a writer and literary publicist who lives in Jerusalem. She welcomes you to visit her in Israel and to join her family for Shabbos or Jewish holidays.",
@@ -1025,7 +1318,9 @@
           "slug": "maura-schreier-fleming",
           "name": "Maura Schreier-Fleming",
           "affiliation": "TFSI Advisory Board / Israel Now Forum",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "TFSI Advisory Board member and Speakers Chairman of the Israel Now Forum, which holds monthly webinars on Israel and the U.S.–Israel relationship. Founder of Best@Selling.",
           "story": [
             "Maura Schreier-Fleming has been a dear friend for several years, and I have come to appreciate not only her friendship but also her heart for building relationships between Christians and the Jewish community. As a member of the Texans for a Safe Israel (TFSI) Advisory Board, Maura has been outstanding in helping us develop meaningful, lasting connections within the Jewish community. She understands that bridge building is about more than supporting a cause; it is about getting to know people, earning trust, and nurturing friendships that grow stronger with time. I am grateful for the role she plays in helping TFSI strengthen these important relationships.",
@@ -1051,17 +1346,21 @@
           "slug": "yifa-segal",
           "name": "Yifa Segal",
           "affiliation": "Israeli diplomatic service",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "Hosted during a short visit with Judy Kadish. Had recently become Chief of Staff for Gilad Erdan, then Israeli Ambassador to the U.S. and the U.N.",
           "story": [
             "It was a pleasure hosting Yifa during her short vacation with our mutual friend, Judy Kadish, Director of Americans for a Safe Israel. Yifa, who had recently moved to Washington as Chief of Staff for Gilad Erdan, the Israeli Ambassador to the U.S. and the U.N., engaged in thought-provoking discussions, including the impact of being a Third Generation Holocaust Survivor, a topic often overlooked by Christians."
           ]
         },
         {
-          "slug": "dr-tim-virginia-shepherd",
+          "slug": "dr-tim-and-virginia-shepherd",
           "name": "Dr. Tim and Virginia Shepherd",
           "affiliation": "Dallas",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Close friends for more than a decade. They connected TFSI with Diane and Jerry Benjamin and are well known for their faithfulness to Jewish causes.",
           "story": [
             "Dr. Tim and Virginia Shepherd have been close friends for more than a decade. They were instrumental in connecting us with Diane and Jerry Benjamin, friendships that have become so meaningful to TFSI. It was also through Virginia’s thoughtful proposal that I was honored years ago by B’nai Zion, a Jewish charitable organization.",
@@ -1070,10 +1369,12 @@
           ]
         },
         {
-          "slug": "ethan-julie-sironi",
+          "slug": "ethan-and-julie-sironi",
           "name": "Ethan and Julie Sironi",
           "affiliation": "Texas",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Dinner guests whose love for Israel and the Jewish people has influenced the TFSI family and work.",
           "story": [
             "They have not stayed with us but have often been at our dinner table. Ethan has had such a positive influence on one of our children’s lives, and in our business life, he has been more than a blessing.",
@@ -1081,10 +1382,12 @@
           ]
         },
         {
-          "slug": "colonel-john-sommerville",
+          "slug": "colonel-john-sommerville-and-mary",
           "name": "Colonel John Sommerville and Mary",
           "affiliation": "Author and trip leader",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "John has led Israel trips since 2009. Author of The Accidental Presidents Who Became Blessers of Israel.",
           "story": [
             "John is one of the first people I heard speak about Israel. I had driven to Weatherford, Texas in 2009 but was so shy I wouldn’t even go up to talk to him after the event. Years later, I took one of my sons on his Zion’s Watchmen trip.",
@@ -1095,7 +1398,10 @@
           "slug": "natalie-sopinsky",
           "name": "Natalie Sopinsky",
           "affiliation": "Susya, Hebron Hills",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "A Delaware native who now lives in Susya, the furthest southern community in Judea. TFSI has helped with needs in Susya.",
           "story": [
             "Natalie Sopinsky has become a good friend. TFSI has helped Natalie with needs in Susya, her home in Israel, the furthest southern community in Judea.",
@@ -1108,7 +1414,10 @@
           "slug": "kimberly-troop",
           "name": "Kimberly Troop",
           "affiliation": "Christian Friends of Israeli Communities",
-          "tags": ["Texas / U.S.", "Heartland"],
+          "tags": [
+            "Texas / U.S.",
+            "Heartland"
+          ],
           "summary": "American representative for CFOIC and a mentor in Jewish–Christian relations since 2011.",
           "story": [
             "A pioneer in Jewish-Christian relations, Kimberly has been a mentor to me since 2011. As the American representative for Christian Friends of Israeli Communities, her insights have deepened my understanding of Israel’s history and fostered friendship between our communities."
@@ -1119,7 +1428,9 @@
           "slug": "dror-vanunu",
           "name": "Dror Vanunu",
           "affiliation": "Gush Katif",
-          "tags": ["Israel"],
+          "tags": [
+            "Israel"
+          ],
           "summary": "An early visitor who represented Gush Katif refugees and spoke about the cost of land concessions.",
           "story": [
             "One of our first visitors. He was the spokesperson for the Gush Katif Refugees. If you know nothing about the refugees, I highly recommend you google Gush Katif. Removing Jews from their homes is one of the ugliest parts of the State of Israel’s history. He was a young, articulate, and attractive man. They couldn’t have picked a better spokesperson. Again, I would like you to learn about this story.",
@@ -1129,10 +1440,13 @@
           "website": "https://www.israelnationalnews.com/news/266958"
         },
         {
-          "slug": "tommy-sherri-waller",
+          "slug": "tommy-and-sherri-waller",
           "name": "Tommy and Sherri Waller",
           "affiliation": "HaYovel",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Left successful careers for the mountains of Israel. HaYovel greens the land and brings Christians into the harvest.",
           "story": [
             "All of HaYovel is our close family. I have even thought about having “Waller” written on one of our bedroom doors. If there is ever a time to take my shoes off and be myself, it is with our Tennessee family. As with so many of the people on this list, I have seen God grow them and their influence. About 6 or 7 years ago, I told my husband, “Tommy Waller will someday visit our home.” Little did we know that we’d end up giving him a key!",
@@ -1145,7 +1459,10 @@
           "slug": "zac-waller",
           "name": "Zac Waller",
           "affiliation": "HaYovel",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "From Tennessee to Israel’s heartland. Executive Director of HaYovel.",
           "story": [
             "We met Zac when he came for the Mercury One Event at Glenn Beck studios a few years back.",
@@ -1154,15 +1471,27 @@
           ]
         },
         {
-          "slug": "steve-doris-wearp",
+          "slug": "steve-and-doris-wearp",
           "name": "Steve and Doris Wearp",
-          "tags": []
+          "affiliation": "Blessed Buy Israel",
+          "tags": [
+            "Texas / U.S.",
+            "Israel",
+            "Heartland"
+          ],
+          "summary": "Steve and Doris Wearp and their family connect Americans with the people and products of Judea and Samaria through Blessed Buy Israel.",
+          "story": [
+            "It is truly a family affair. Steve began the journey in 2016, leaving his job as a Caterpillar engineer and selling the family’s Texas home to pursue a dream that had been inspiring him for more than 20 years. Steve and Doris have five very talented boys. They saw that the Christian faith is tied to the Jewish people and Israel, and they began to dig deeper. I knew Steve and Doris since before Steve left Caterpillar. I remember Doris saying, “Please pray for Steve that they will give him early retirement.” That is exactly what happened! But that same year, the European Union decided to label products from Judea and Samaria separately, identifying them as coming from the West Bank rather than Israel. Steve recognized that something needed to be done, and Blessed Buy Israel was born. Their oldest son, Samuel, traveled to Judea and Samaria and they began talking with local residents about bringing their products to the United States. But this was about much more than products, Steve wanted Americans to know the people behind them—their families, their stories, their hard work, and their lives in the Biblical heartland of Israel. They have visited us at The Blessing a number of times, and we have enjoyed getting to know them and their work. Blessed Buy Israel is about more than buying Israeli products. It is about building relationships, sharing stories, and connecting people here in Texas with the Jewish people who live and work in the Land of Israel. Here is an article from The Jerusalem Post that tells more of their story. https://www.jpost.com/diaspora/the-christian-family-who-advocates-for-israel-across-the-us-599407 BlessedBuyIsrael.com"
+          ]
         },
         {
           "slug": "david-wilder",
           "name": "David Wilder",
           "affiliation": "Hebron",
-          "tags": ["Israel", "Heartland"],
+          "tags": [
+            "Israel",
+            "Heartland"
+          ],
           "summary": "Former English spokesperson for the Jewish community of Hebron. A pivotal voice in TFSI’s understanding of Hebron.",
           "story": [
             "God has sent me many Divine Appointments, but this man stands at the top of the list. About David, and his wife Ora, I could write a book.",
@@ -1176,7 +1505,9 @@
           "slug": "steve-wilhite",
           "name": "Steve Wilhite",
           "affiliation": "Daystar Christian TV",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "EVP of Daystar. Particular care for Orthodox and Religious Zionist communities.",
           "story": [
             "The Executive Vice President of Daystar Christian TV. My husband and I first met Steve 25+ years ago when Daystar was in its infancy. We have seen it grow into the largest Christian Network in the World. He is a “behind-the-scenes” man, but Daystar would not be where they are today had it not been for Steve Wilhite.",
@@ -1187,7 +1518,9 @@
           "slug": "jack-wilson",
           "name": "Jack Wilson",
           "affiliation": "Hood County Commissioner",
-          "tags": ["Texas / U.S."],
+          "tags": [
+            "Texas / U.S."
+          ],
           "summary": "Stopped the gunman at West Freeway Church of Christ in December 2019. Now Hood County Commissioner for Precinct 3. Helped TFSI send supplies to Israeli soldiers.",
           "story": [
             "Jack Wilson was an ordinary citizen of Granbury, Texas, until the morning of December 29, 2019, when his quick action changed the course of a tragic day. During a church service at West Freeway Church of Christ in Fort Worth, Jack fatally shot a gunman who had already killed two people. His courageous response is credited with preventing further casualties among the approximately 250 people present. According to the Texas Rangers, the gunman had enough ammunition to kill many more. That fateful day changed Jack’s life and helped save the lives of countless others, including his own family.",

@@ -4,6 +4,20 @@ import { useSite } from "../data/siteData";
 import { Field } from "./Field";
 import PersonMark from "./PersonMark";
 
+const URL_PATTERN = /(https?:\/\/[^\s]+[^\s.,;:!?)])/g;
+
+function linkify(text) {
+  return text.split(URL_PATTERN).map((part, index) =>
+    index % 2 === 1 ? (
+      <a key={index} href={part} target="_blank" rel="noreferrer" className="text-link">
+        {part.replace(/^https?:\/\/(www\.)?/, "")}
+      </a>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function PeopleDirectory() {
   const { get } = useSite();
   const people = get("about.people.list") ?? [];
@@ -83,7 +97,9 @@ export default function PeopleDirectory() {
                   </div>
                   {person.summary ? <p className="directory-summary">{person.summary}</p> : null}
                   <div className="directory-meta">
-                    <span className="directory-tags">{person.tags.join(" · ")}</span>
+                    {person.tags.length > 0 ? (
+                      <span className="directory-tags">{person.tags.join(" · ")}</span>
+                    ) : null}
                     {hasStory ? (
                       <button
                         type="button"
@@ -108,8 +124,8 @@ export default function PeopleDirectory() {
                     className="directory-story"
                     hidden={!expanded}
                   >
-                    {person.story.map((paragraph) => (
-                      <p key={paragraph}>{paragraph}</p>
+                    {person.story.map((paragraph, index) => (
+                      <p key={index}>{linkify(paragraph)}</p>
                     ))}
                   </div>
                 ) : null}

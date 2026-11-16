@@ -1,4 +1,4 @@
-const HONORIFICS = new Set(["dr", "dr.", "rabbi", "pastor", "ambassador", "colonel", "mr", "mr.", "mrs", "mrs.", "ms", "ms."]);
+const HONORIFICS = new Set(["dr", "dr.", "rabbi", "pastor", "ambassador", "colonel", "chaplain", "knesset", "member", "the", "mr", "mr.", "mrs", "mrs.", "ms", "ms."]);
 const VARIANTS = 3;
 
 export function initialsFor(name) {
